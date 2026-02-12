@@ -32,7 +32,7 @@ class Host(BaseModel):
 	port = models.IntegerField(verbose_name="端口")
 	username = models.CharField(max_length=50, verbose_name="登录用户")
 	users = models.ManyToManyField(User)
-	password = models.CharField(max_length=32, verbose_name="登录用户")
+	
 	class Meta:
 		db_table = 'uric_host'
 		verbose_name = "主机信息"

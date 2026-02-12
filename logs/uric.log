@@ -2058,3 +2058,457 @@ ERROR 2026-02-12 11:50:31,354 basehttp:213 "POST /host/host/ HTTP/1.1" 507 10481
 ERROR 2026-02-12 12:05:41,937 exceptions:20 [<host.views.HostApiView object at 0x0000023446492140>] (1054, "Unknown column 'uric_host.password' in 'field list'")
 ERROR 2026-02-12 12:05:41,939 log:253 Insufficient Storage: /host/host/
 ERROR 2026-02-12 12:05:41,941 basehttp:213 "GET /host/host/ HTTP/1.1" 507 34
+INFO 2026-02-12 13:53:59,719 basehttp:213 "OPTIONS /host/host/ HTTP/1.1" 200 0
+ERROR 2026-02-12 13:53:59,746 exceptions:20 [<host.views.HostApiView object at 0x0000023446490880>] (1054, "Unknown column 'uric_host.password' in 'field list'")
+WARNING 2026-02-12 13:53:59,748 middleware:19 请求路径/host/host/ 耗时 0.025211334228515625秒
+ERROR 2026-02-12 13:53:59,750 log:253 Insufficient Storage: /host/host/
+ERROR 2026-02-12 13:53:59,751 basehttp:213 "GET /host/host/ HTTP/1.1" 507 34
+INFO 2026-02-12 13:54:19,444 autoreload:265 D:\code\uric_api\uric_api\apps\host\models.py changed, reloading.
+INFO 2026-02-12 13:54:20,760 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-12 13:54:32,347 middleware:19 请求路径/host/host/ 耗时 0.017348766326904297秒
+INFO 2026-02-12 13:54:32,348 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 13:56:11,975 middleware:19 请求路径/ 耗时 0.020339488983154297秒
+WARNING 2026-02-12 13:56:11,982 log:253 Not Found: /
+WARNING 2026-02-12 13:56:11,985 basehttp:213 "GET / HTTP/1.1" 404 2604
+WARNING 2026-02-12 13:56:15,034 middleware:19 请求路径/host/host/ 耗时 0.06046795845031738秒
+INFO 2026-02-12 13:56:15,036 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11089
+INFO 2026-02-12 13:56:50,217 autoreload:265 D:\code\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2026-02-12 13:56:51,585 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-12 14:00:57,777 middleware:19 请求路径/host/host/ 耗时 0.010079622268676758秒
+INFO 2026-02-12 14:00:57,779 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:00,138 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:00,792 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:01,025 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:01:01,247 middleware:19 请求路径/host/host/ 耗时 0.010006427764892578秒
+INFO 2026-02-12 14:01:01,248 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:01,473 basehttp:81 - Broken pipe from ('127.0.0.1', 9534)
+INFO 2026-02-12 14:01:01,691 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:02,743 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:01:03,672 middleware:19 请求路径/host/host/ 耗时 0.018209218978881836秒
+INFO 2026-02-12 14:01:03,674 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:26,637 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:28,507 basehttp:213 "OPTIONS /host/category/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:01:28,529 middleware:19 请求路径/host/category/ 耗时 0.018950223922729492秒
+WARNING 2026-02-12 14:01:28,533 middleware:19 请求路径/host/host/ 耗时 0.02293872833251953秒
+INFO 2026-02-12 14:01:28,533 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:01:28,535 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:30,297 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:01:30,326 middleware:19 请求路径/host/host/ 耗时 0.033917903900146484秒
+INFO 2026-02-12 14:01:30,329 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:30,799 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:01:30,799 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:01:31,068 middleware:19 请求路径/host/category/ 耗时 0.024953603744506836秒
+INFO 2026-02-12 14:01:31,074 basehttp:81 - Broken pipe from ('127.0.0.1', 9553)
+WARNING 2026-02-12 14:01:31,075 middleware:19 请求路径/host/host/ 耗时 0.03191423416137695秒
+INFO 2026-02-12 14:01:31,078 basehttp:81 - Broken pipe from ('127.0.0.1', 9576)
+INFO 2026-02-12 14:01:31,309 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:01:31,317 middleware:19 请求路径/host/category/ 耗时 0.015956401824951172秒
+INFO 2026-02-12 14:01:31,318 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:01:32,424 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:01:32,427 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:01:33,310 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:01:33,332 middleware:19 请求路径/host/host/ 耗时 0.025948286056518555秒
+INFO 2026-02-12 14:01:33,333 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:02:13,078 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:02:13,081 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:14:24,803 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:14:24,804 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:15:50,251 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+INFO 2026-02-12 14:15:50,252 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:16:02,991 basehttp:213 "OPTIONS /host/ HTTP/1.1" 200 0
+INFO 2026-02-12 14:16:03,002 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:16:03,003 log:253 Method Not Allowed: /host/
+WARNING 2026-02-12 14:16:03,005 basehttp:213 "POST /host/ HTTP/1.1" 405 46
+WARNING 2026-02-12 14:16:05,460 log:253 Method Not Allowed: /host/
+WARNING 2026-02-12 14:16:05,467 basehttp:213 "POST /host/ HTTP/1.1" 405 46
+WARNING 2026-02-12 14:16:05,493 middleware:19 请求路径/host/host/ 耗时 0.03087639808654785秒
+INFO 2026-02-12 14:16:05,496 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:16:11,979 log:253 Method Not Allowed: /host/
+WARNING 2026-02-12 14:16:11,984 basehttp:213 "POST /host/ HTTP/1.1" 405 46
+WARNING 2026-02-12 14:16:11,991 middleware:19 请求路径/host/host/ 耗时 0.010970115661621094秒
+INFO 2026-02-12 14:16:11,993 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:17:13,378 log:253 Method Not Allowed: /host/
+WARNING 2026-02-12 14:17:13,382 basehttp:213 "POST /host/ HTTP/1.1" 405 46
+INFO 2026-02-12 14:17:13,388 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+INFO 2026-02-12 14:17:23,464 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:17:23,468 middleware:19 请求路径/host/host/ 耗时 0.01296544075012207秒
+INFO 2026-02-12 14:17:23,470 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:17:42,356 log:253 Method Not Allowed: /host/
+WARNING 2026-02-12 14:17:42,359 basehttp:213 "POST /host/ HTTP/1.1" 405 46
+INFO 2026-02-12 14:17:42,367 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:17:50,477 middleware:19 请求路径/host/category/ 耗时 0.07007312774658203秒
+INFO 2026-02-12 14:17:50,479 basehttp:213 "GET /host/category/ HTTP/1.1" 200 8771
+INFO 2026-02-12 14:17:50,813 basehttp:213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-02-12 14:17:50,819 basehttp:213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2026-02-12 14:17:50,819 basehttp:213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-02-12 14:17:50,819 basehttp:213 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-02-12 14:17:50,821 basehttp:213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-02-12 14:17:50,821 basehttp:213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-02-12 14:17:50,822 basehttp:213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-02-12 14:17:50,831 basehttp:213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-02-12 14:17:50,832 basehttp:213 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-02-12 14:17:50,832 basehttp:213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-02-12 14:17:50,834 basehttp:213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-02-12 14:17:50,836 basehttp:213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2026-02-12 14:17:50,902 log:253 Not Found: /favicon.ico
+WARNING 2026-02-12 14:17:50,903 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2655
+INFO 2026-02-12 14:18:39,167 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:18:39,171 middleware:19 请求路径/host/host/ 耗时 0.011967658996582031秒
+INFO 2026-02-12 14:18:39,172 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+WARNING 2026-02-12 14:18:50,132 middleware:19 请求路径/host/host/ 耗时 0.011966705322265625秒
+INFO 2026-02-12 14:18:50,134 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+ERROR 2026-02-12 14:18:50,197 log:253 Internal Server Error: /host/host/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 1010, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `Host.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Host.objects.create()`. You may need to make the field read-only, or override the HostSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+WARNING 2026-02-12 14:18:50,205 middleware:19 请求路径/host/host/ 耗时 0.08478021621704102秒
+ERROR 2026-02-12 14:18:50,207 basehttp:213 "POST /host/host/ HTTP/1.1" 500 156544
+WARNING 2026-02-12 14:19:06,523 middleware:19 请求路径/host/host/ 耗时 0.011491775512695312秒
+INFO 2026-02-12 14:19:06,537 basehttp:213 "GET /host/host/ HTTP/1.1" 200 247
+ERROR 2026-02-12 14:19:06,579 log:253 Internal Server Error: /host/host/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 1010, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `Host.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Host.objects.create()`. You may need to make the field read-only, or override the HostSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+WARNING 2026-02-12 14:19:06,584 middleware:19 请求路径/host/host/ 耗时 0.0721898078918457秒
+ERROR 2026-02-12 14:19:06,585 basehttp:213 "POST /host/host/ HTTP/1.1" 500 156544
+ERROR 2026-02-12 14:21:02,762 log:253 Internal Server Error: /host/host/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 1010, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `Host.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Host.objects.create()`. You may need to make the field read-only, or override the HostSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+WARNING 2026-02-12 14:21:02,769 middleware:19 请求路径/host/host/ 耗时 0.0827782154083252秒
+ERROR 2026-02-12 14:21:02,771 basehttp:213 "POST /host/host/ HTTP/1.1" 500 159964
+INFO 2026-02-12 14:23:13,009 autoreload:265 D:\code\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2026-02-12 14:23:14,230 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-12 14:23:27,116 middleware:19 请求路径/host/host/ 耗时 0.07276034355163574秒
+INFO 2026-02-12 14:23:27,118 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11089
+ERROR 2026-02-12 14:23:38,787 log:253 Internal Server Error: /host/host/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 1010, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `Host.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Host.objects.create()`. You may need to make the field read-only, or override the HostSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 663, in create
+    obj = self.model(**kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+TypeError: Host() got unexpected keyword arguments: 'password'
+
+WARNING 2026-02-12 14:23:38,793 middleware:19 请求路径/host/host/ 耗时 0.07140564918518066秒
+ERROR 2026-02-12 14:23:38,795 basehttp:213 "POST /host/host/ HTTP/1.1" 500 159796
+INFO 2026-02-12 14:27:01,904 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-12 14:27:13,743 middleware:19 请求路径/host/host/ 耗时 0.10671472549438477秒
+INFO 2026-02-12 14:27:13,745 basehttp:213 "POST /host/host/ HTTP/1.1" 201 10711
+WARNING 2026-02-12 14:27:17,909 middleware:19 请求路径/host/host/ 耗时 0.03789710998535156秒
+INFO 2026-02-12 14:27:17,910 basehttp:213 "POST /host/host/ HTTP/1.1" 201 10711
+INFO 2026-02-12 14:28:17,786 basehttp:213 "POST /host/host/ HTTP/1.1" 201 121
+WARNING 2026-02-12 14:28:17,804 middleware:19 请求路径/host/host/ 耗时 0.02692866325378418秒
+INFO 2026-02-12 14:28:17,805 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:28:25,081 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:28:25,102 middleware:19 请求路径/host/host/ 耗时 0.02666497230529785秒
+INFO 2026-02-12 14:28:25,103 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:35:23,885 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:35:23,891 middleware:19 请求路径/host/host/ 耗时 0.01497030258178711秒
+INFO 2026-02-12 14:35:23,892 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:37:10,017 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:37:10,021 middleware:19 请求路径/host/host/ 耗时 0.011966705322265625秒
+INFO 2026-02-12 14:37:10,022 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:37:20,667 basehttp:213 "POST /host/category/ HTTP/1.1" 201 18
+WARNING 2026-02-12 14:37:20,680 middleware:19 请求路径/host/category/ 耗时 0.022937774658203125秒
+INFO 2026-02-12 14:37:20,681 basehttp:213 "GET /host/category/ HTTP/1.1" 200 68
+INFO 2026-02-12 14:37:28,430 basehttp:213 "GET /host/category/ HTTP/1.1" 200 68
+WARNING 2026-02-12 14:37:28,435 middleware:19 请求路径/host/host/ 耗时 0.011995792388916016秒
+INFO 2026-02-12 14:37:28,436 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:38:02,977 basehttp:213 "GET /host/category/ HTTP/1.1" 200 68
+WARNING 2026-02-12 14:38:02,983 middleware:19 请求路径/host/host/ 耗时 0.01196742057800293秒
+INFO 2026-02-12 14:38:02,984 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:38:09,384 basehttp:213 "GET /host/category/ HTTP/1.1" 200 68
+INFO 2026-02-12 14:38:09,386 basehttp:213 "POST /host/category/ HTTP/1.1" 201 22
+INFO 2026-02-12 14:38:26,350 basehttp:213 "GET /host/category/ HTTP/1.1" 200 91
+WARNING 2026-02-12 14:38:26,358 middleware:19 请求路径/host/host/ 耗时 0.01407313346862793秒
+INFO 2026-02-12 14:38:26,360 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:38:43,155 basehttp:213 "GET /host/category/ HTTP/1.1" 200 91
+WARNING 2026-02-12 14:38:43,159 middleware:19 请求路径/host/host/ 耗时 0.010970354080200195秒
+INFO 2026-02-12 14:38:43,160 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:38:49,917 basehttp:213 "POST /host/category/ HTTP/1.1" 201 22
+INFO 2026-02-12 14:38:50,965 basehttp:213 "GET /host/category/ HTTP/1.1" 200 114
+INFO 2026-02-12 14:47:03,889 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:47:03,894 middleware:19 请求路径/host/host/ 耗时 0.013099908828735352秒
+INFO 2026-02-12 14:47:03,895 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:53:12,118 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:53:12,124 middleware:19 请求路径/host/host/ 耗时 0.013346195220947266秒
+INFO 2026-02-12 14:53:12,125 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:53:55,660 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:53:55,666 middleware:19 请求路径/host/host/ 耗时 0.012060403823852539秒
+INFO 2026-02-12 14:53:55,668 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:54:09,679 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:54:09,685 middleware:19 请求路径/host/host/ 耗时 0.014493227005004883秒
+INFO 2026-02-12 14:54:09,688 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:54:12,110 basehttp:213 "OPTIONS /host/host/5 HTTP/1.1" 200 0
+WARNING 2026-02-12 14:54:12,125 middleware:19 请求路径/host/host/5 耗时 0.011892318725585938秒
+ERROR 2026-02-12 14:54:12,166 log:253 Internal Server Error: /host/host/5
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/host/host/5/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2026-02-12 14:54:12,171 basehttp:213 "DELETE /host/host/5 HTTP/1.1" 500 75171
+ERROR 2026-02-12 14:54:20,864 log:253 Internal Server Error: /host/host/5
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/host/host/5/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2026-02-12 14:54:20,866 basehttp:213 "DELETE /host/host/5 HTTP/1.1" 500 75171
+INFO 2026-02-12 14:56:55,299 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:56:55,304 middleware:19 请求路径/host/host/ 耗时 0.011530876159667969秒
+INFO 2026-02-12 14:56:55,305 basehttp:213 "GET /host/host/ HTTP/1.1" 200 601
+INFO 2026-02-12 14:57:00,379 basehttp:213 "OPTIONS /host/host/5/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:57:00,395 middleware:19 请求路径/host/host/5/ 耗时 0.01324152946472168秒
+INFO 2026-02-12 14:57:00,398 basehttp:213 "DELETE /host/host/5/ HTTP/1.1" 204 0
+INFO 2026-02-12 14:57:00,425 basehttp:213 "GET /host/host/ HTTP/1.1" 200 479
+INFO 2026-02-12 14:57:13,161 basehttp:213 "GET /host/category/ HTTP/1.1" 200 49
+WARNING 2026-02-12 14:57:13,164 middleware:19 请求路径/host/host/ 耗时 0.013019084930419922秒
+INFO 2026-02-12 14:57:13,165 basehttp:213 "GET /host/host/ HTTP/1.1" 200 479
+INFO 2026-02-12 14:57:14,907 basehttp:213 "OPTIONS /host/host/1/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:57:14,923 middleware:19 请求路径/host/host/1/ 耗时 0.012954473495483398秒
+INFO 2026-02-12 14:57:14,925 basehttp:213 "DELETE /host/host/1/ HTTP/1.1" 204 0
+WARNING 2026-02-12 14:57:14,961 middleware:19 请求路径/host/host/ 耗时 0.027925968170166016秒
+INFO 2026-02-12 14:57:14,964 basehttp:213 "GET /host/host/ HTTP/1.1" 200 356
+INFO 2026-02-12 14:57:16,481 basehttp:213 "OPTIONS /host/host/2/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:57:16,497 middleware:19 请求路径/host/host/2/ 耗时 0.013991355895996094秒
+INFO 2026-02-12 14:57:16,499 basehttp:213 "DELETE /host/host/2/ HTTP/1.1" 204 0
+INFO 2026-02-12 14:57:16,513 basehttp:213 "GET /host/host/ HTTP/1.1" 200 233
+INFO 2026-02-12 14:57:17,701 basehttp:213 "OPTIONS /host/host/3/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:57:17,714 middleware:19 请求路径/host/host/3/ 耗时 0.010970830917358398秒
+INFO 2026-02-12 14:57:17,715 basehttp:213 "DELETE /host/host/3/ HTTP/1.1" 204 0
+INFO 2026-02-12 14:57:17,725 basehttp:213 "GET /host/host/ HTTP/1.1" 200 117
+INFO 2026-02-12 14:57:18,867 basehttp:213 "OPTIONS /host/host/4/ HTTP/1.1" 200 0
+WARNING 2026-02-12 14:57:18,883 middleware:19 请求路径/host/host/4/ 耗时 0.013882637023925781秒
+INFO 2026-02-12 14:57:18,884 basehttp:213 "DELETE /host/host/4/ HTTP/1.1" 204 0
+INFO 2026-02-12 14:57:18,893 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+WARNING 2026-02-12 14:58:08,698 middleware:19 请求路径/host/category/ 耗时 0.03118276596069336秒
+INFO 2026-02-12 14:58:08,701 basehttp:213 "POST /host/category/ HTTP/1.1" 201 36
+INFO 2026-02-12 14:58:11,144 basehttp:213 "GET /host/category/ HTTP/1.1" 200 86
+INFO 2026-02-12 14:58:22,196 basehttp:213 "POST /host/category/ HTTP/1.1" 201 33
+INFO 2026-02-12 14:58:23,239 basehttp:213 "GET /host/category/ HTTP/1.1" 200 120
+INFO 2026-02-12 14:58:29,844 basehttp:213 "POST /host/category/ HTTP/1.1" 201 30
+INFO 2026-02-12 14:58:30,877 basehttp:213 "GET /host/category/ HTTP/1.1" 200 151
+INFO 2026-02-12 14:58:48,290 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-02-12 14:58:48,313 middleware:19 请求路径/host/host/ 耗时 0.027054309844970703秒
+INFO 2026-02-12 14:58:48,314 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:00:25,769 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:00:25,770 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:01:54,403 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:01:54,403 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:02:29,091 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:02:29,091 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:03:26,198 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:03:26,198 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:03:28,757 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-02-12 15:03:28,769 middleware:19 请求路径/host/host/ 耗时 0.015956401824951172秒
+INFO 2026-02-12 15:03:28,770 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+INFO 2026-02-12 15:04:15,909 basehttp:213 "GET /host/host/ HTTP/1.1" 200 2
+WARNING 2026-02-12 15:04:15,948 middleware:19 请求路径/host/host/ 耗时 0.041245460510253906秒
+INFO 2026-02-12 15:04:15,949 basehttp:213 "POST /host/host/ HTTP/1.1" 201 130
+INFO 2026-02-12 15:04:19,648 basehttp:213 "GET /host/host/ HTTP/1.1" 200 132
+WARNING 2026-02-12 15:04:19,657 middleware:19 请求路径/host/category/ 耗时 0.013937711715698242秒
+INFO 2026-02-12 15:04:19,658 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:04:34,802 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-12 15:04:34,803 basehttp:213 "GET /host/host/ HTTP/1.1" 200 132
+WARNING 2026-02-12 15:05:04,109 middleware:19 请求路径/host/host/ 耗时 0.03831338882446289秒
+INFO 2026-02-12 15:05:04,110 basehttp:213 "POST /host/host/ HTTP/1.1" 201 142
+INFO 2026-02-12 15:05:04,124 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275

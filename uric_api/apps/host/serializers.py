@@ -14,19 +14,18 @@ class HostSerializer(serializers.ModelSerializer):
 		model = Host
 		fields = ['id', 'category', 'category_name', 'name', 'ip_addr', 'port', 'description', 'username', 'password']
 		
-		def validate(self,attrs):
-			ip_addr = attrs.get('ip_addr')
-			port = attrs.get('port')
-			username = attrs.get('username')
-			password = attrs.get('password')
-			return attrs
+	def validate(self, attrs):
+		ip_addr = attrs.get('ip_addr')
+		port = attrs.get('port')
+		username = attrs.get('username')
+		password = attrs.get('password')
+		return attrs
 		
-		def create(self, validated_data):
-			ip_addr = validated_data.get('ip_addr')
-			port = validated_data.get('port')
-			username = validated_data.get('username')
-
-			password = validated_data.pop('password')
+	def create(self, validated_data):
+		ip_addr = validated_data.get('ip_addr')
+		port = validated_data.get('port')
+		username = validated_data.get('username')
+		password = validated_data.pop('password' , None)
 			
-			instance = Host.objects.create(**validated_data)
-			return instance
+		instance = Host.objects.create(**validated_data)
+		return instance
