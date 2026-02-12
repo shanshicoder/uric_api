@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class HostConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "host"
+    verbose_name = "主机管理"
+    verbose_name_plural = verbose_name
