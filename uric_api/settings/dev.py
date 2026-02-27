@@ -56,9 +56,10 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     
-    'users',
+    "users",
     "home",
-    "host"
+    "host",
+    "device"
 ]
 
 MIDDLEWARE = [
@@ -159,7 +160,19 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework.authentication.BasicAuthentication",
-    )
+    ),
+    
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.BrowsableAPIRenderer' ,  # ⭐ 放在第一位 → 默认显示 HTML form
+        'rest_framework.renderers.JSONRenderer' ,  # 第二位 → 支持返回 JSON
+    ] ,
+    
+    # 同时确保 Parser 也支持表单（虽然不影响默认显示，但影响提交功能）
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser' ,
+        'rest_framework.parsers.FormParser' ,
+        'rest_framework.parsers.MultiPartParser' ,
+    ] ,
 }
 
 from datetime import timedelta

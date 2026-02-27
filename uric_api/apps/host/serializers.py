@@ -6,6 +6,8 @@ class HostCategorySerializer(serializers.ModelSerializer):
 		model = HostCategory
 		fields = ['id','name']
 		
+		
+		
 class HostSerializer(serializers.ModelSerializer):
 	category_name = serializers.CharField(source='category.name', read_only=True)
 	password = serializers.CharField(max_length=32, write_only=True, label="登录密码")

@@ -2512,3 +2512,636 @@ INFO 2026-02-12 15:04:34,803 basehttp:213 "GET /host/host/ HTTP/1.1" 200 132
 WARNING 2026-02-12 15:05:04,109 middleware:19 请求路径/host/host/ 耗时 0.03831338882446289秒
 INFO 2026-02-12 15:05:04,110 basehttp:213 "POST /host/host/ HTTP/1.1" 201 142
 INFO 2026-02-12 15:05:04,124 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 15:20:55,302 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-26 15:20:58,752 middleware:19 请求路径/ 耗时 0.033438920974731445秒
+WARNING 2026-02-26 15:20:58,756 log:253 Not Found: /
+WARNING 2026-02-26 15:20:58,758 basehttp:213 "GET / HTTP/1.1" 404 2604
+WARNING 2026-02-26 15:20:59,188 log:253 Not Found: /favicon.ico
+WARNING 2026-02-26 15:20:59,190 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2655
+INFO 2026-02-26 15:21:06,473 basehttp:213 "OPTIONS /host/category/ HTTP/1.1" 200 0
+INFO 2026-02-26 15:21:06,480 basehttp:213 "OPTIONS /host/host/ HTTP/1.1" 200 0
+WARNING 2026-02-26 15:21:06,506 middleware:19 请求路径/host/category/ 耗时 0.021537303924560547秒
+WARNING 2026-02-26 15:21:06,508 middleware:19 请求路径/host/host/ 耗时 0.023627519607543945秒
+INFO 2026-02-26 15:21:06,509 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 15:21:06,510 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 15:21:44,125 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 15:21:44,126 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 15:24:04,820 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 15:24:04,822 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:02:16,325 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-02-26 16:02:17,754 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-26 16:02:27,893 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-02-26 16:02:29,447 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-26 16:04:05,500 autoreload:265 D:\code\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-02-26 16:04:06,920 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-26 16:04:49,437 autoreload:265 D:\code\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-02-26 16:04:50,925 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-26 16:20:41,339 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:20:41,340 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:20:44,740 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:20:44,743 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:21:09,346 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-02-26 16:21:09,369 middleware:19 请求路径/host/host/ 耗时 0.028398990631103516秒
+INFO 2026-02-26 16:21:09,371 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:22:11,414 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:22:11,419 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:26:13,454 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+WARNING 2026-02-26 16:26:13,472 middleware:19 请求路径/host/category/ 耗时 0.023936033248901367秒
+INFO 2026-02-26 16:26:13,473 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-02-26 16:26:15,782 middleware:19 请求路径/host/category/ 耗时 0.0218963623046875秒
+WARNING 2026-02-26 16:26:15,788 middleware:19 请求路径/host/host/ 耗时 0.027880430221557617秒
+INFO 2026-02-26 16:26:15,788 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:26:15,789 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:26:17,361 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:26:17,363 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:33:19,580 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-02-26 16:33:19,581 middleware:19 请求路径/host/host/ 耗时 0.010973453521728516秒
+INFO 2026-02-26 16:33:19,584 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-26 16:33:27,079 views:12 hello
+INFO 2026-02-26 16:33:27,082 basehttp:213 "GET /home/test/ HTTP/1.1" 200 7
+INFO 2026-02-26 16:34:41,634 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+WARNING 2026-02-26 16:34:41,648 middleware:19 请求路径/host/category/ 耗时 0.020967960357666016秒
+INFO 2026-02-26 16:34:41,650 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:34:44,107 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-02-26 16:34:44,111 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-02-27 09:30:58,783 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 09:31:32,230 autoreload:265 D:\code\uric_api\uric_api\apps\host\views.py changed, reloading.
+INFO 2026-02-27 09:31:33,399 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:22:06,518 autoreload:265 D:\code\uric_api\uric_api\apps\host\serializers.py changed, reloading.
+INFO 2026-02-27 10:22:07,716 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:22:30,770 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:23:41,261 autoreload:265 D:\code\uric_api\uric_api\urls.py changed, reloading.
+INFO 2026-02-27 10:23:42,416 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:26:03,259 autoreload:265 D:\code\uric_api\uric_api\apps\device\urls.py changed, reloading.
+INFO 2026-02-27 10:26:04,453 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:26:43,132 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 10:26:49,479 middleware:19 请求路径/ 耗时 0.013934135437011719秒
+WARNING 2026-02-27 10:26:49,483 log:253 Not Found: /
+WARNING 2026-02-27 10:26:49,485 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 10:26:50,024 middleware:19 请求路径/ 耗时 0.012365341186523438秒
+WARNING 2026-02-27 10:26:50,026 log:253 Not Found: /
+WARNING 2026-02-27 10:26:50,028 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 10:26:50,049 middleware:19 请求路径/favicon.ico 耗时 0.010075092315673828秒
+WARNING 2026-02-27 10:26:50,053 log:253 Not Found: /favicon.ico
+WARNING 2026-02-27 10:26:50,056 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2805
+WARNING 2026-02-27 10:26:50,088 log:253 Not Found: /
+WARNING 2026-02-27 10:26:50,089 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 10:26:53,338 middleware:19 请求路径/host/host/ 耗时 0.08487868309020996秒
+INFO 2026-02-27 10:26:53,339 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+INFO 2026-02-27 10:26:53,351 basehttp:213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,352 basehttp:213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,352 basehttp:213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,614 basehttp:213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,615 basehttp:213 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,615 basehttp:213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,637 basehttp:213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,637 basehttp:213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,648 basehttp:213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,669 basehttp:213 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,669 basehttp:213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-02-27 10:26:53,680 basehttp:213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-02-27 10:27:01,188 basehttp:213 "GET /device/devices HTTP/1.1" 301 0
+WARNING 2026-02-27 10:27:01,200 middleware:19 请求路径/device/devices/ 耗时 0.010012626647949219秒
+INFO 2026-02-27 10:27:01,202 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5179
+INFO 2026-02-27 10:27:32,740 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:27:33,861 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 10:27:37,080 middleware:19 请求路径/device/devices/ 耗时 0.03082561492919922秒
+INFO 2026-02-27 10:27:37,082 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:27:37,933 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:27:38,358 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:27:38,571 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:27:38,751 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:27:38,926 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 5194
+INFO 2026-02-27 10:31:27,382 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:31:28,538 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:31:42,527 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:31:43,658 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:31:48,689 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:31:49,856 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:33:24,785 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:33:25,966 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:33:47,982 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:33:49,151 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:33:53,130 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:33:54,319 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:33:56,811 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:33:58,029 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:34:01,456 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:34:02,594 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:34:08,840 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:34:09,949 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 10:34:49,045 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 10:34:53,265 middleware:19 请求路径/device/devices/ 耗时 0.04687333106994629秒
+INFO 2026-02-27 10:34:53,266 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 6832
+WARNING 2026-02-27 10:35:01,461 middleware:19 请求路径/device/devices/ 耗时 0.010968685150146484秒
+WARNING 2026-02-27 10:35:01,466 log:253 Bad Request: /device/devices/
+WARNING 2026-02-27 10:35:01,466 basehttp:213 "POST /device/devices/ HTTP/1.1" 400 6965
+WARNING 2026-02-27 10:35:08,769 log:253 Bad Request: /device/devices/
+WARNING 2026-02-27 10:35:08,771 basehttp:213 "POST /device/devices/ HTTP/1.1" 400 6940
+INFO 2026-02-27 10:37:11,374 autoreload:265 D:\code\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-02-27 10:37:12,483 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 10:37:22,985 middleware:19 请求路径/device/devices/ 耗时 0.04292440414428711秒
+INFO 2026-02-27 10:37:22,986 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 6832
+WARNING 2026-02-27 10:37:28,836 log:253 Bad Request: /device/devices/
+WARNING 2026-02-27 10:37:28,837 basehttp:213 "POST /device/devices/ HTTP/1.1" 400 7176
+WARNING 2026-02-27 10:38:29,664 middleware:19 请求路径/device/devices/ 耗时 0.015087604522705078秒
+WARNING 2026-02-27 10:38:29,665 log:253 Bad Request: /device/devices/
+WARNING 2026-02-27 10:38:29,667 basehttp:213 "POST /device/devices/ HTTP/1.1" 400 7050
+INFO 2026-02-27 10:51:33,062 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 10:51:34,403 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 13:44:05,931 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 13:44:34,809 middleware:19 请求路径/device/devices/ 耗时 0.06479358673095703秒
+INFO 2026-02-27 13:44:34,810 basehttp:213 "GET /device/devices/ HTTP/1.1" 200 6832
+INFO 2026-02-27 13:46:00,614 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 13:46:08,689 middleware:19 请求路径/device/device_cate_list/ 耗时 0.04289865493774414秒
+INFO 2026-02-27 13:46:08,691 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 200 6895
+WARNING 2026-02-27 13:46:14,935 log:253 Bad Request: /device/device_cate_list/
+WARNING 2026-02-27 13:46:14,936 basehttp:213 "POST /device/device_cate_list/ HTTP/1.1" 400 7155
+WARNING 2026-02-27 13:46:41,767 log:253 Bad Request: /device/device_cate_list/
+WARNING 2026-02-27 13:46:41,769 basehttp:213 "POST /device/device_cate_list/ HTTP/1.1" 400 7000
+WARNING 2026-02-27 13:51:43,114 middleware:19 请求路径/host/host/ 耗时 0.0369107723236084秒
+INFO 2026-02-27 13:51:43,116 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+WARNING 2026-02-27 13:53:07,402 middleware:19 请求路径/host/category/ 耗时 0.013962984085083008秒
+INFO 2026-02-27 13:53:07,404 basehttp:213 "GET /host/category/ HTTP/1.1" 200 8885
+INFO 2026-02-27 13:53:19,675 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 200 6895
+INFO 2026-02-27 13:53:38,896 basehttp:213 "GET /host/ HTTP/1.1" 200 5415
+INFO 2026-02-27 13:54:00,468 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 200 6895
+WARNING 2026-02-27 13:54:04,293 log:253 Bad Request: /device/device_cate_list/
+WARNING 2026-02-27 13:54:04,294 basehttp:213 "POST /device/device_cate_list/ HTTP/1.1" 400 7155
+WARNING 2026-02-27 13:54:31,915 middleware:19 请求路径/device/device_cate_list/ 耗时 0.02196478843688965秒
+INFO 2026-02-27 13:54:31,915 basehttp:213 "POST /device/device_cate_list/ HTTP/1.1" 200 7365
+INFO 2026-02-27 13:58:23,020 autoreload:265 D:\code\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-02-27 13:58:24,152 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 13:59:24,890 autoreload:265 D:\code\uric_api\uric_api\apps\device\urls.py changed, reloading.
+INFO 2026-02-27 13:59:26,062 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 14:02:13,243 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 14:02:14,586 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 14:02:28,187 log:253 Not Found: /device/device_cate_list/
+WARNING 2026-02-27 14:02:28,188 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 404 3768
+WARNING 2026-02-27 14:02:29,280 log:253 Not Found: /device/device_cate_list/
+WARNING 2026-02-27 14:02:29,281 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 404 3768
+WARNING 2026-02-27 14:02:29,514 log:253 Not Found: /device/device_cate_list/
+WARNING 2026-02-27 14:02:29,516 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 404 3768
+WARNING 2026-02-27 14:02:29,683 log:253 Not Found: /device/device_cate_list/
+WARNING 2026-02-27 14:02:29,685 basehttp:213 "GET /device/device_cate_list/ HTTP/1.1" 404 3768
+WARNING 2026-02-27 14:02:39,747 middleware:19 请求路径/device/deviceCateList/ 耗时 0.06476545333862305秒
+INFO 2026-02-27 14:02:39,748 basehttp:213 "GET /device/deviceCateList/ HTTP/1.1" 200 7445
+WARNING 2026-02-27 14:03:10,602 middleware:19 请求路径/host/host/ 耗时 0.02582526206970215秒
+INFO 2026-02-27 14:03:10,603 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+INFO 2026-02-27 14:07:16,523 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 14:07:29,508 middleware:19 请求路径/device/deviceCateList/ 耗时 0.04788613319396973秒
+INFO 2026-02-27 14:07:29,509 basehttp:213 "GET /device/deviceCateList/ HTTP/1.1" 200 7445
+WARNING 2026-02-27 14:07:43,751 middleware:19 请求路径/host/host/ 耗时 0.03176283836364746秒
+INFO 2026-02-27 14:07:43,753 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+WARNING 2026-02-27 14:10:08,974 middleware:19 请求路径/host/host/ 耗时 0.011957883834838867秒
+INFO 2026-02-27 14:10:08,975 basehttp:213 "OPTIONS /host/host/ HTTP/1.1" 200 13504
+WARNING 2026-02-27 14:10:16,984 middleware:19 请求路径/host/host/ 耗时 0.013058900833129883秒
+INFO 2026-02-27 14:10:16,985 basehttp:213 "GET /host/host/?format=json HTTP/1.1" 200 275
+WARNING 2026-02-27 14:10:20,001 middleware:19 请求路径/host/host/ 耗时 0.03169393539428711秒
+INFO 2026-02-27 14:10:20,004 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+WARNING 2026-02-27 14:10:21,762 middleware:19 请求路径/host/host/ 耗时 0.02393507957458496秒
+INFO 2026-02-27 14:10:21,764 basehttp:213 "GET /host/host/?format=api HTTP/1.1" 200 11300
+INFO 2026-02-27 14:15:12,082 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 14:15:13,209 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 14:19:48,016 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 14:19:52,372 middleware:19 请求路径/ 耗时 0.011968851089477539秒
+WARNING 2026-02-27 14:19:52,375 log:253 Not Found: /
+WARNING 2026-02-27 14:19:52,377 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 14:19:52,386 log:253 Not Found: /
+WARNING 2026-02-27 14:19:52,387 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 14:19:56,907 middleware:19 请求路径/host/host/ 耗时 0.06664133071899414秒
+INFO 2026-02-27 14:19:56,909 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+WARNING 2026-02-27 14:20:08,477 middleware:19 请求路径/device/deviceCateList/ 耗时 0.01593160629272461秒
+INFO 2026-02-27 14:20:08,479 basehttp:213 "GET /device/deviceCateList/ HTTP/1.1" 200 7408
+INFO 2026-02-27 14:20:20,312 basehttp:213 "OPTIONS /device/deviceCateList/ HTTP/1.1" 200 7243
+INFO 2026-02-27 14:20:21,691 basehttp:213 "OPTIONS /device/deviceCateList/ HTTP/1.1" 200 7243
+WARNING 2026-02-27 14:20:31,697 middleware:19 请求路径/host/host/ 耗时 0.01795673370361328秒
+INFO 2026-02-27 14:20:31,699 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+INFO 2026-02-27 14:25:50,957 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 14:30:19,313 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 14:31:28,274 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 14:31:30,511 middleware:19 请求路径/ 耗时 0.013967037200927734秒
+WARNING 2026-02-27 14:31:30,513 log:253 Not Found: /
+WARNING 2026-02-27 14:31:30,515 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 14:31:30,525 log:253 Not Found: /
+WARNING 2026-02-27 14:31:30,527 basehttp:213 "GET / HTTP/1.1" 404 2754
+ERROR 2026-02-27 14:31:33,344 log:253 Internal Server Error: /host/host/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 732, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 172, in render
+    return self._render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\library.py", line 324, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\templatetags\rest_framework.py", line 95, in optional_login
+    login_url = reverse('rest_framework:login')
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\base.py", line 64, in reverse
+    app_list = resolver.app_dict[ns]
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 637, in app_dict
+    self._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 574, in _populate
+    url_pattern._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 574, in _populate
+    url_pattern._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 549, in _populate
+    p_pattern = url_pattern.pattern.regex.pattern
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 304, in __get__
+    instance.__dict__["regex"] = re.compile(instance._regex)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 838, in _parse
+    raise source.error(err.msg, len(name) + 1) from None
+re.error: redefinition of group name 'format' as group 2; was group 1 at position 30
+WARNING 2026-02-27 14:31:33,362 middleware:19 请求路径/host/host/ 耗时 0.16756248474121094秒
+ERROR 2026-02-27 14:31:33,365 basehttp:213 "GET /host/host/ HTTP/1.1" 500 496591
+ERROR 2026-02-27 14:31:38,457 log:253 Internal Server Error: /device/deviceCate/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 732, in render
+    ret = template.render(context, request=renderer_context['request'])
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 172, in render
+    return self._render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\base.py", line 979, in render_annotated
+    return self.render(context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\library.py", line 324, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\templatetags\rest_framework.py", line 95, in optional_login
+    login_url = reverse('rest_framework:login')
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\base.py", line 64, in reverse
+    app_list = resolver.app_dict[ns]
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 637, in app_dict
+    self._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 574, in _populate
+    url_pattern._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 574, in _populate
+    url_pattern._populate()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 549, in _populate
+    p_pattern = url_pattern.pattern.regex.pattern
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\urls\resolvers.py", line 304, in __get__
+    instance.__dict__["regex"] = re.compile(instance._regex)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\sre_parse.py", line 838, in _parse
+    raise source.error(err.msg, len(name) + 1) from None
+re.error: redefinition of group name 'format' as group 2; was group 1 at position 30
+WARNING 2026-02-27 14:31:38,468 middleware:19 请求路径/device/deviceCate/ 耗时 0.10823488235473633秒
+ERROR 2026-02-27 14:31:38,469 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 500 468555
+INFO 2026-02-27 14:33:34,748 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 14:33:36,980 middleware:19 请求路径/ 耗时 0.013962745666503906秒
+WARNING 2026-02-27 14:33:36,984 log:253 Not Found: /
+WARNING 2026-02-27 14:33:36,986 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 14:33:37,069 log:253 Not Found: /
+WARNING 2026-02-27 14:33:37,076 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 14:33:39,802 middleware:19 请求路径/host/host/ 耗时 0.07269144058227539秒
+INFO 2026-02-27 14:33:39,804 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+WARNING 2026-02-27 14:33:46,301 middleware:19 请求路径/device/deviceCate/ 耗时 0.015025138854980469秒
+INFO 2026-02-27 14:33:46,303 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+INFO 2026-02-27 14:39:09,454 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 14:39:26,503 basehttp:213 "GET /device/deviceList HTTP/1.1" 301 0
+WARNING 2026-02-27 14:39:26,550 middleware:19 请求路径/device/deviceList/ 耗时 0.04487943649291992秒
+INFO 2026-02-27 14:39:26,551 basehttp:213 "GET /device/deviceList/ HTTP/1.1" 200 6953
+INFO 2026-02-27 14:39:55,195 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 15:24:23,032 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 15:24:30,755 basehttp:213 "GET /device/deviceAttr HTTP/1.1" 301 0
+WARNING 2026-02-27 15:24:30,803 middleware:19 请求路径/device/deviceAttr/ 耗时 0.046874284744262695秒
+INFO 2026-02-27 15:24:30,805 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 200 6953
+WARNING 2026-02-27 15:24:44,917 middleware:19 请求路径/device/deviceCate/ 耗时 0.025929689407348633秒
+INFO 2026-02-27 15:24:44,918 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:29:30,082 middleware:19 请求路径/device/deviceCate/ 耗时 0.01398015022277832秒
+INFO 2026-02-27 15:29:30,083 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:17,763 middleware:19 请求路径/device/deviceCate/ 耗时 0.010964393615722656秒
+WARNING 2026-02-27 15:39:17,766 log:253 Bad Request: /device/deviceCate/
+WARNING 2026-02-27 15:39:17,767 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 400 10405
+WARNING 2026-02-27 15:39:23,190 middleware:19 请求路径/device/deviceCate/ 耗时 0.01883983612060547秒
+INFO 2026-02-27 15:39:23,192 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 201 10527
+WARNING 2026-02-27 15:39:26,221 middleware:19 请求路径/device/deviceCate/ 耗时 0.011966705322265625秒
+INFO 2026-02-27 15:39:26,222 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:27,567 middleware:19 请求路径/device/deviceCate/ 耗时 0.012965202331542969秒
+INFO 2026-02-27 15:39:27,568 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:31,014 middleware:19 请求路径/device/deviceCate/ 耗时 0.01795053482055664秒
+INFO 2026-02-27 15:39:31,015 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:54,700 middleware:19 请求路径/device/deviceCate/ 耗时 0.03789830207824707秒
+INFO 2026-02-27 15:39:54,701 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:55,565 middleware:19 请求路径/device/deviceCate/ 耗时 0.025965452194213867秒
+INFO 2026-02-27 15:39:55,567 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+WARNING 2026-02-27 15:39:57,013 middleware:19 请求路径/device/deviceCate/ 耗时 0.018729448318481445秒
+INFO 2026-02-27 15:39:57,014 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10553
+INFO 2026-02-27 15:40:50,917 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 15:40:52,126 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 15:40:57,212 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 15:41:06,130 middleware:19 请求路径/ 耗时 0.012671232223510742秒
+WARNING 2026-02-27 15:41:06,133 log:253 Not Found: /
+WARNING 2026-02-27 15:41:06,135 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 15:41:06,147 log:253 Not Found: /
+WARNING 2026-02-27 15:41:06,149 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 15:41:26,887 middleware:19 请求路径/host/host/ 耗时 0.0654900074005127秒
+INFO 2026-02-27 15:41:26,888 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+ERROR 2026-02-27 15:41:36,594 log:253 Internal Server Error: /device/deviceAttr/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DeviceAttrView.get() takes 1 positional argument but 2 were given
+WARNING 2026-02-27 15:41:36,599 middleware:19 请求路径/device/deviceAttr/ 耗时 0.04188680648803711秒
+ERROR 2026-02-27 15:41:36,600 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 500 94111
+INFO 2026-02-27 15:41:58,357 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 15:41:59,523 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 15:42:00,091 middleware:19 请求路径/device/deviceAttr/ 耗时 0.048627614974975586秒
+INFO 2026-02-27 15:42:00,092 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 200 6953
+WARNING 2026-02-27 15:42:05,433 log:253 Bad Request: /device/deviceAttr/
+WARNING 2026-02-27 15:42:05,435 basehttp:213 "POST /device/deviceAttr/ HTTP/1.1" 400 7378
+INFO 2026-02-27 15:48:32,674 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 15:48:33,840 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 15:49:37,304 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 15:49:38,461 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 15:49:54,804 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-02-27 15:50:01,189 log:253 Internal Server Error: /device/deviceAttr/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 637, in get_filter_form
+    queryset = view.get_queryset()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'DeviceAttrView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+WARNING 2026-02-27 15:50:01,193 middleware:19 请求路径/device/deviceAttr/ 耗时 0.06187772750854492秒
+ERROR 2026-02-27 15:50:01,194 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 500 97588
+INFO 2026-02-27 16:19:08,293 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:19:14,290 middleware:19 请求路径/ 耗时 0.016954898834228516秒
+WARNING 2026-02-27 16:19:14,294 log:253 Not Found: /
+WARNING 2026-02-27 16:19:14,298 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:19:14,313 middleware:19 请求路径/ 耗时 0.010589361190795898秒
+WARNING 2026-02-27 16:19:14,316 log:253 Not Found: /
+WARNING 2026-02-27 16:19:14,318 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:19:14,723 log:253 Not Found: /favicon.ico
+WARNING 2026-02-27 16:19:14,725 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2805
+ERROR 2026-02-27 16:19:27,033 log:253 Internal Server Error: /device/deviceAttr/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 709, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\renderers.py", line 637, in get_filter_form
+    queryset = view.get_queryset()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\generics.py", line 67, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'DeviceAttrView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+WARNING 2026-02-27 16:19:27,038 middleware:19 请求路径/device/deviceAttr/ 耗时 0.05790090560913086秒
+ERROR 2026-02-27 16:19:27,039 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 500 97308
+INFO 2026-02-27 16:20:32,203 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:20:33,530 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:21:26,511 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:21:27,661 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:23:35,918 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:23:37,136 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:24:21,034 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:24:22,345 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:28:04,434 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:28:05,755 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:28:07,020 middleware:19 请求路径/device/deviceAttr/ 耗时 0.05480384826660156秒
+INFO 2026-02-27 16:28:07,021 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 200 10499
+INFO 2026-02-27 16:33:28,255 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:33:29,452 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:36:11,471 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:36:12,605 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:36:21,469 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:36:22,595 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:36:29,002 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:36:30,169 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:36:38,872 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:36:40,018 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:37:52,143 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:37:53,286 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:38:44,587 autoreload:265 D:\code\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-02-27 16:38:45,702 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:39:32,411 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-02-27 16:42:15,433 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:42:19,045 middleware:19 请求路径/ 耗时 0.014037609100341797秒
+WARNING 2026-02-27 16:42:19,049 log:253 Not Found: /
+WARNING 2026-02-27 16:42:19,050 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:42:19,060 log:253 Not Found: /
+WARNING 2026-02-27 16:42:19,062 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:42:25,341 middleware:19 请求路径/device/deviceCate/ 耗时 0.05681157112121582秒
+INFO 2026-02-27 16:42:25,343 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10709
+WARNING 2026-02-27 16:42:38,009 middleware:19 请求路径/device/deviceCate/ 耗时 0.01287221908569336秒
+WARNING 2026-02-27 16:42:38,010 log:253 Bad Request: /device/deviceCate/
+WARNING 2026-02-27 16:42:38,011 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 400 10034
+ERROR 2026-02-27 16:45:30,344 log:253 Internal Server Error: /device/deviceCate/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\device\views.py", line 31, in post
+    headers = self.get_success_headers(serializer.data)
+AttributeError: 'DeviceCateView' object has no attribute 'get_success_headers'
+WARNING 2026-02-27 16:45:30,349 middleware:19 请求路径/device/deviceCate/ 耗时 0.05137753486633301秒
+ERROR 2026-02-27 16:45:30,350 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 500 101643
+INFO 2026-02-27 16:49:10,782 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:49:13,886 middleware:19 请求路径/ 耗时 0.015482187271118164秒
+WARNING 2026-02-27 16:49:13,890 log:253 Not Found: /
+WARNING 2026-02-27 16:49:13,892 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:49:13,912 middleware:19 请求路径/ 耗时 0.010921955108642578秒
+WARNING 2026-02-27 16:49:13,915 log:253 Not Found: /
+WARNING 2026-02-27 16:49:13,917 basehttp:213 "GET / HTTP/1.1" 404 2754
+WARNING 2026-02-27 16:49:26,965 middleware:19 请求路径/device/deviceAttr/ 耗时 0.04787135124206543秒
+INFO 2026-02-27 16:49:26,967 basehttp:213 "GET /device/deviceAttr/ HTTP/1.1" 200 10399
+WARNING 2026-02-27 16:49:35,696 middleware:19 请求路径/device/deviceCate/ 耗时 0.01595616340637207秒
+INFO 2026-02-27 16:49:35,698 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 11248
+WARNING 2026-02-27 16:49:52,271 middleware:19 请求路径/device/deviceCate/ 耗时 0.012965202331542969秒
+INFO 2026-02-27 16:49:52,272 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 201 10175
+WARNING 2026-02-27 16:49:57,081 middleware:19 请求路径/device/deviceCate/ 耗时 0.01296377182006836秒
+INFO 2026-02-27 16:49:57,083 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 11783
+INFO 2026-02-27 16:50:38,197 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:50:45,275 middleware:19 请求路径/device/deviceCate/ 耗时 0.06386756896972656秒
+INFO 2026-02-27 16:50:45,277 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 11777
+WARNING 2026-02-27 16:51:48,479 middleware:19 请求路径/device/deviceCate/ 耗时 0.01595473289489746秒
+INFO 2026-02-27 16:51:48,481 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 11777
+WARNING 2026-02-27 16:52:31,920 middleware:19 请求路径/device/deviceCate/ 耗时 0.014990568161010742秒
+INFO 2026-02-27 16:52:31,921 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 9650
+INFO 2026-02-27 16:53:30,305 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-02-27 16:53:42,476 middleware:19 请求路径/device/deviceCate/ 耗时 0.054902076721191406秒
+INFO 2026-02-27 16:53:42,477 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 9656
+WARNING 2026-02-27 16:54:04,114 middleware:19 请求路径/device/deviceCate/ 耗时 0.019807815551757812秒
+INFO 2026-02-27 16:54:04,115 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 201 10162
+WARNING 2026-02-27 16:54:17,191 middleware:19 请求路径/device/deviceCate/ 耗时 0.019865751266479492秒
+INFO 2026-02-27 16:54:17,193 basehttp:213 "POST /device/deviceCate/ HTTP/1.1" 201 10162
+WARNING 2026-02-27 16:54:19,128 middleware:19 请求路径/device/deviceCate/ 耗时 0.011966705322265625秒
+INFO 2026-02-27 16:54:19,130 basehttp:213 "GET /device/deviceCate/ HTTP/1.1" 200 10698
+WARNING 2026-02-27 17:54:41,601 middleware:19 请求路径/device/deviceAttr/ 耗时 0.021033048629760742秒
