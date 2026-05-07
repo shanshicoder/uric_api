@@ -17,5 +17,3 @@ class DeviceCateSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = DeviceCateModel
 		fields = '__all__'
-
-		

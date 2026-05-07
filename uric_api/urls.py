@@ -23,5 +23,6 @@ urlpatterns = [
     path("home/", include("home.urls")),
     path("users/", include("users.urls")),
     path("host/", include("host.urls")),
-    path("device/", include("device.urls")) ,
+    path("device/", include("device.urls")),
+    path("dict/", include("dict.urls")),
 ]
