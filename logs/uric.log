@@ -4011,3 +4011,1308 @@ WARNING 2026-04-02 16:02:40,460 middleware:19 请求路径/host/host/ 耗时 0.0
 INFO 2026-04-02 16:02:40,462 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
 INFO 2026-04-02 16:02:54,996 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
 INFO 2026-04-02 16:02:54,999 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-05-07 17:45:27,271 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-07 17:45:46,234 basehttp:213 "OPTIONS /host/host/ HTTP/1.1" 200 0
+INFO 2026-05-07 17:45:46,242 basehttp:213 "OPTIONS /host/category/ HTTP/1.1" 200 0
+WARNING 2026-05-07 17:45:46,356 middleware:19 请求路径/host/category/ 耗时 0.049866676330566406秒
+INFO 2026-05-07 17:45:46,371 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-05-07 17:45:46,374 middleware:19 请求路径/host/host/ 耗时 0.06746721267700195秒
+INFO 2026-05-07 17:45:46,381 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+WARNING 2026-05-07 17:47:00,703 middleware:19 请求路径/host/category/ 耗时 0.014663934707641602秒
+WARNING 2026-05-07 17:47:00,709 middleware:19 请求路径/host/host/ 耗时 0.02061319351196289秒
+INFO 2026-05-07 17:47:00,711 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-05-07 17:47:00,713 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-05-07 17:56:19,544 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+WARNING 2026-05-07 17:56:19,567 middleware:19 请求路径/host/category/ 耗时 0.03217315673828125秒
+INFO 2026-05-07 17:56:19,568 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+WARNING 2026-05-07 18:12:53,028 middleware:19 请求路径/host/category/ 耗时 0.016904592514038086秒
+WARNING 2026-05-07 18:12:53,030 middleware:19 请求路径/host/host/ 耗时 0.01889944076538086秒
+INFO 2026-05-07 18:12:53,032 basehttp:213 "GET /host/category/ HTTP/1.1" 200 103
+INFO 2026-05-07 18:12:53,034 basehttp:213 "GET /host/host/ HTTP/1.1" 200 275
+INFO 2026-05-07 18:18:42,180 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-07 18:18:48,890 middleware:19 请求路径/ 耗时 0.07367110252380371秒
+WARNING 2026-05-07 18:18:48,906 log:253 Not Found: /
+WARNING 2026-05-07 18:18:48,913 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-07 18:18:49,602 middleware:19 请求路径/favicon.ico 耗时 0.024932861328125秒
+WARNING 2026-05-07 18:18:49,606 log:253 Not Found: /favicon.ico
+WARNING 2026-05-07 18:18:49,614 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-07 18:18:50,343 middleware:19 请求路径/ 耗时 0.02468395233154297秒
+WARNING 2026-05-07 18:18:50,348 log:253 Not Found: /
+WARNING 2026-05-07 18:18:50,352 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-07 18:18:50,505 middleware:19 请求路径/ 耗时 0.022063255310058594秒
+WARNING 2026-05-07 18:18:50,508 log:253 Not Found: /
+WARNING 2026-05-07 18:18:50,513 basehttp:213 "GET / HTTP/1.1" 404 2902
+INFO 2026-05-07 18:23:46,477 basehttp:213 "GET /admin HTTP/1.1" 301 0
+WARNING 2026-05-07 18:23:46,497 middleware:19 请求路径/admin/ 耗时 0.017951250076293945秒
+INFO 2026-05-07 18:23:46,499 basehttp:213 "GET /admin/ HTTP/1.1" 302 0
+WARNING 2026-05-07 18:23:46,521 middleware:19 请求路径/admin/login/ 耗时 0.018947362899780273秒
+INFO 2026-05-07 18:23:46,523 basehttp:213 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4368
+INFO 2026-05-07 18:23:46,906 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 200 101784
+INFO 2026-05-07 18:23:46,910 basehttp:213 "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 200 500
+INFO 2026-05-07 18:23:46,927 basehttp:213 "GET /static/admin/simpleui-x/elementui/umd/locale/en.js?_=2026.01.13 HTTP/1.1" 200 3516
+INFO 2026-05-07 18:23:46,929 basehttp:213 "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 200 669
+INFO 2026-05-07 18:23:46,938 basehttp:213 "GET /static/admin/simpleui-x/js/vue.min.js?_=2026.01.13 HTTP/1.1" 200 93675
+INFO 2026-05-07 18:23:46,939 basehttp:213 "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 200 51264
+INFO 2026-05-07 18:23:46,941 basehttp:213 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 200 240033
+INFO 2026-05-07 18:23:46,941 basehttp:213 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+INFO 2026-05-07 18:23:46,942 basehttp:213 "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 200 3728
+INFO 2026-05-07 18:23:46,960 basehttp:213 "GET /static/admin/simpleui-x/elementui/index.js?_=2026.01.13 HTTP/1.1" 200 664912
+INFO 2026-05-07 18:23:46,970 basehttp:213 "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+INFO 2026-05-07 18:23:47,119 basehttp:213 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150472
+INFO 2026-05-07 18:23:52,925 basehttp:213 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200
+WARNING 2026-05-07 18:23:56,092 middleware:19 请求路径/admin/login/ 耗时 1.2287261486053467秒
+INFO 2026-05-07 18:23:56,094 basehttp:213 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4629
+WARNING 2026-05-07 18:24:12,333 middleware:19 请求路径/admin/login/ 耗时 1.3518900871276855秒
+INFO 2026-05-07 18:24:12,338 basehttp:213 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4629
+INFO 2026-05-07 18:24:28,153 views:12 hello
+WARNING 2026-05-07 18:24:28,173 middleware:19 请求路径/home/test/ 耗时 0.01997971534729004秒
+INFO 2026-05-07 18:24:28,175 basehttp:213 "GET /home/test/ HTTP/1.1" 200 5115
+INFO 2026-05-07 18:24:28,204 basehttp:213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-05-07 18:24:28,205 basehttp:213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-05-07 18:24:28,205 basehttp:213 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-05-07 18:24:28,205 basehttp:213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-05-07 18:24:28,210 basehttp:213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2026-05-07 18:24:28,211 basehttp:213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-05-07 18:24:28,215 basehttp:213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-05-07 18:24:28,216 basehttp:213 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-05-07 18:24:28,216 basehttp:213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-05-07 18:24:28,218 basehttp:213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-05-07 18:24:28,220 basehttp:213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-05-07 18:24:28,245 basehttp:213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2026-05-07 18:24:31,306 log:253 Not Found: /home
+WARNING 2026-05-07 18:24:31,307 basehttp:213 "GET /home HTTP/1.1" 404 2932
+WARNING 2026-05-07 18:24:36,331 log:253 Not Found: /home
+WARNING 2026-05-07 18:24:36,333 basehttp:213 "GET /home HTTP/1.1" 404 2932
+WARNING 2026-05-07 18:24:41,385 log:253 Not Found: /users
+WARNING 2026-05-07 18:24:41,387 basehttp:213 "GET /users HTTP/1.1" 404 2935
+INFO 2026-05-07 18:24:45,656 basehttp:213 "GET /host/host HTTP/1.1" 301 0
+WARNING 2026-05-07 18:24:45,708 middleware:19 请求路径/host/host/ 耗时 0.0486295223236084秒
+INFO 2026-05-07 18:24:45,710 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+INFO 2026-05-07 18:37:11,578 basehttp:213 "GET /host/category HTTP/1.1" 301 0
+WARNING 2026-05-07 18:37:11,617 middleware:19 请求路径/host/category/ 耗时 0.03496384620666504秒
+INFO 2026-05-07 18:37:11,619 basehttp:213 "GET /host/category/ HTTP/1.1" 200 8885
+WARNING 2026-05-07 18:37:20,701 middleware:19 请求路径/host/host/ 耗时 0.02211165428161621秒
+INFO 2026-05-07 18:37:20,703 basehttp:213 "GET /host/host/ HTTP/1.1" 200 11223
+INFO 2026-05-08 15:14:47,973 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 15:17:51,769 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 15:17:55,537 middleware:19 请求路径/ 耗时 0.018503665924072266秒
+WARNING 2026-05-08 15:17:55,544 log:253 Not Found: /
+WARNING 2026-05-08 15:17:55,546 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-08 15:17:55,558 log:253 Not Found: /
+WARNING 2026-05-08 15:17:55,560 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-08 15:17:55,751 middleware:19 请求路径/favicon.ico 耗时 0.01096963882446289秒
+WARNING 2026-05-08 15:17:55,752 log:253 Not Found: /favicon.ico
+WARNING 2026-05-08 15:17:55,754 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-08 15:17:55,824 log:253 Not Found: /favicon.ico
+WARNING 2026-05-08 15:17:55,826 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-08 15:18:02,239 log:253 Not Found: /dict
+WARNING 2026-05-08 15:18:02,240 basehttp:213 "GET /dict HTTP/1.1" 404 2932
+INFO 2026-05-08 15:18:32,326 basehttp:213 "GET /dict/types HTTP/1.1" 301 0
+WARNING 2026-05-08 15:18:32,430 middleware:19 请求路径/dict/types/ 耗时 0.10272550582885742秒
+INFO 2026-05-08 15:18:32,432 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 11316
+INFO 2026-05-08 15:18:32,754 basehttp:213 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-05-08 15:18:32,758 basehttp:213 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-05-08 15:18:32,764 basehttp:213 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-05-08 15:18:32,766 basehttp:213 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-05-08 15:18:32,771 basehttp:213 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-05-08 15:18:32,772 basehttp:213 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-05-08 15:18:32,772 basehttp:213 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-05-08 15:18:32,772 basehttp:213 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-05-08 15:18:32,778 basehttp:213 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2026-05-08 15:18:32,780 basehttp:213 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-05-08 15:18:32,780 basehttp:213 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-05-08 15:18:32,790 basehttp:213 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2026-05-08 15:19:37,718 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-08 15:19:38,932 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 15:20:37,716 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 15:20:46,150 middleware:19 请求路径/dict/types/ 耗时 0.06018567085266113秒
+INFO 2026-05-08 15:20:46,152 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 11316
+INFO 2026-05-08 15:21:35,284 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 15:21:41,102 log:253 Not Found: /
+WARNING 2026-05-08 15:21:41,104 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-08 15:21:49,589 middleware:19 请求路径/dict/types/ 耗时 0.09118247032165527秒
+INFO 2026-05-08 15:21:49,591 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 11316
+INFO 2026-05-08 15:22:42,603 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-08 15:22:43,875 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 15:27:35,273 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-08 15:27:36,504 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 15:30:45,488 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-08 15:30:46,891 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:31:23,238 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:32:35,949 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:32:46,860 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:35:09,241 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:38:37,503 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 17:38:40,687 middleware:19 请求路径/ 耗时 0.015705585479736328秒
+WARNING 2026-05-08 17:38:40,691 log:253 Not Found: /
+WARNING 2026-05-08 17:38:40,692 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-08 17:38:48,853 middleware:19 请求路径/dict/types/ 耗时 0.03073573112487793秒
+WARNING 2026-05-08 17:38:48,854 log:253 Unauthorized: /dict/types/
+WARNING 2026-05-08 17:38:48,856 basehttp:213 "GET /dict/types/ HTTP/1.1" 401 5075
+INFO 2026-05-08 17:39:09,457 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 17:39:24,931 middleware:19 请求路径/dict/types/ 耗时 0.05156993865966797秒
+INFO 2026-05-08 17:39:24,933 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 6319
+INFO 2026-05-08 17:39:59,541 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-08 17:53:05,438 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-08 17:53:10,815 middleware:19 请求路径/ 耗时 0.014959096908569336秒
+WARNING 2026-05-08 17:53:10,818 log:253 Not Found: /
+WARNING 2026-05-08 17:53:10,820 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-08 17:53:18,515 middleware:19 请求路径/dict/types/ 耗时 0.0578770637512207秒
+INFO 2026-05-08 17:53:18,516 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+WARNING 2026-05-08 17:54:17,166 log:253 Bad Request: /dict/types/
+WARNING 2026-05-08 17:54:17,167 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 6931
+ERROR 2026-05-08 17:55:19,123 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-08 17:55:19,134 middleware:19 请求路径/dict/types/ 耗时 0.07192778587341309秒
+ERROR 2026-05-08 17:55:19,134 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 160967
+INFO 2026-05-08 17:56:45,311 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-08 17:56:46,717 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 09:49:30,385 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-09 09:49:54,844 middleware:19 请求路径/dict/types 耗时 0.013962745666503906秒
+INFO 2026-05-09 09:49:54,847 basehttp:213 "GET /dict/types HTTP/1.1" 301 0
+INFO 2026-05-09 09:50:23,641 basehttp:213 "GET /dict/types HTTP/1.1" 301 0
+WARNING 2026-05-09 09:50:42,431 log:253 Not Found: /
+WARNING 2026-05-09 09:50:42,434 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:50:42,447 middleware:19 请求路径/ 耗时 0.010970592498779297秒
+WARNING 2026-05-09 09:50:42,449 log:253 Not Found: /
+WARNING 2026-05-09 09:50:42,451 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:50:42,616 middleware:19 请求路径/favicon.ico 耗时 0.010254621505737305秒
+WARNING 2026-05-09 09:50:42,617 log:253 Not Found: /favicon.ico
+WARNING 2026-05-09 09:50:42,620 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-09 09:50:42,687 log:253 Not Found: /favicon.ico
+WARNING 2026-05-09 09:50:42,690 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-09 09:50:47,565 middleware:19 请求路径/dict/types/ 耗时 0.09742951393127441秒
+INFO 2026-05-09 09:50:47,568 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+WARNING 2026-05-09 09:51:05,965 middleware:19 请求路径/dict/types/ 耗时 0.01296544075012207秒
+INFO 2026-05-09 09:51:05,967 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+WARNING 2026-05-09 09:53:04,251 middleware:19 请求路径/dict/types/ 耗时 0.034900665283203125秒
+INFO 2026-05-09 09:53:04,254 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+WARNING 2026-05-09 09:53:43,317 log:253 Not Found: /
+WARNING 2026-05-09 09:53:43,319 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:53:43,331 log:253 Not Found: /
+WARNING 2026-05-09 09:53:43,333 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:53:43,518 log:253 Not Found: /favicon.ico
+WARNING 2026-05-09 09:53:43,519 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-09 09:53:47,882 middleware:19 请求路径/dict/types/ 耗时 0.020948410034179688秒
+INFO 2026-05-09 09:53:47,884 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+WARNING 2026-05-09 09:54:25,153 log:253 Not Found: /
+WARNING 2026-05-09 09:54:25,154 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:54:25,180 log:253 Not Found: /
+WARNING 2026-05-09 09:54:25,183 basehttp:213 "GET / HTTP/1.1" 404 2902
+WARNING 2026-05-09 09:54:25,363 log:253 Not Found: /favicon.ico
+WARNING 2026-05-09 09:54:25,366 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-09 09:54:25,375 log:253 Not Found: /favicon.ico
+WARNING 2026-05-09 09:54:25,377 basehttp:213 "GET /favicon.ico HTTP/1.1" 404 2953
+WARNING 2026-05-09 09:54:28,789 middleware:19 请求路径/dict/types/ 耗时 0.01994800567626953秒
+INFO 2026-05-09 09:54:28,791 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 7971
+INFO 2026-05-09 10:02:17,156 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-05-09 10:02:18,939 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 10:02:22,855 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-09 10:02:25,957 middleware:19 请求路径/dict/types/ 耗时 0.03550410270690918秒
+INFO 2026-05-09 10:02:25,959 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 564
+ERROR 2026-05-09 10:04:13,125 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 19, in post
+    type_name = request.data['type']
+KeyError: 'type'
+WARNING 2026-05-09 10:04:13,131 middleware:19 请求路径/dict/types/ 耗时 0.07791328430175781秒
+ERROR 2026-05-09 10:04:13,133 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 95070
+ERROR 2026-05-09 10:05:18,229 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 19, in post
+    type_name = request.data['type']
+KeyError: 'type'
+WARNING 2026-05-09 10:05:18,232 middleware:19 请求路径/dict/types/ 耗时 0.05385112762451172秒
+ERROR 2026-05-09 10:05:18,234 basehttp:213 "POST /dict/types/?type=123&code=123&status=123 HTTP/1.1" 500 96081
+ERROR 2026-05-09 10:06:14,245 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1182, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1495, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1513, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1523, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\query.py", line 1415, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\lookups.py", line 38, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\lookups.py", line 410, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\lookups.py", line 96, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+WARNING 2026-05-09 10:06:14,262 middleware:19 请求路径/dict/types/ 耗时 0.12267136573791504秒
+ERROR 2026-05-09 10:06:14,264 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 177121
+ERROR 2026-05-09 10:07:15,961 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:07:15,968 middleware:19 请求路径/dict/types/ 耗时 0.1124718189239502秒
+ERROR 2026-05-09 10:07:15,970 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 159186
+ERROR 2026-05-09 10:08:00,853 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:08:00,858 middleware:19 请求路径/dict/types/ 耗时 0.10173559188842773秒
+ERROR 2026-05-09 10:08:00,861 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 159185
+ERROR 2026-05-09 10:08:14,709 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:08:14,714 middleware:19 请求路径/dict/types/ 耗时 0.09574532508850098秒
+ERROR 2026-05-09 10:08:14,716 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 159191
+ERROR 2026-05-09 10:08:29,707 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:08:29,713 middleware:19 请求路径/dict/types/ 耗时 0.11464381217956543秒
+ERROR 2026-05-09 10:08:29,714 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 159191
+ERROR 2026-05-09 10:08:46,449 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 23, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:08:46,455 middleware:19 请求路径/dict/types/ 耗时 0.10073089599609375秒
+ERROR 2026-05-09 10:08:46,457 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 159191
+INFO 2026-05-09 10:09:32,985 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 10:11:37,843 autoreload:265 D:\code\uric_api\uric_api\apps\dict\models.py changed, reloading.
+INFO 2026-05-09 10:11:40,762 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 10:12:27,010 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-09 10:12:41,494 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:12:41,517 middleware:19 请求路径/dict/types/ 耗时 7.770383358001709秒
+ERROR 2026-05-09 10:12:41,520 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161743
+ERROR 2026-05-09 10:14:24,044 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:14:24,053 middleware:19 请求路径/dict/types/ 耗时 0.28194117546081543秒
+ERROR 2026-05-09 10:14:24,056 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161743
+ERROR 2026-05-09 10:14:38,507 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:14:38,515 middleware:19 请求路径/dict/types/ 耗时 0.3167550563812256秒
+ERROR 2026-05-09 10:14:38,519 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161743
+ERROR 2026-05-09 10:27:58,337 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:27:58,344 middleware:19 请求路径/dict/types/ 耗时 0.29487133026123047秒
+ERROR 2026-05-09 10:27:58,347 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161055
+ERROR 2026-05-09 10:28:23,401 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:28:23,408 middleware:19 请求路径/dict/types/ 耗时 0.3403465747833252秒
+ERROR 2026-05-09 10:28:23,410 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161055
+INFO 2026-05-09 10:29:01,680 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-09 10:29:05,126 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:29:05,143 middleware:19 请求路径/dict/types/ 耗时 0.1625657081604004秒
+ERROR 2026-05-09 10:29:05,146 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158541
+INFO 2026-05-09 10:29:31,989 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-09 10:31:00,078 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:31:11,133 middleware:19 请求路径/dict/types/ 耗时 97.67343187332153秒
+ERROR 2026-05-09 10:31:46,805 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 161061
+INFO 2026-05-09 10:32:44,775 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 10:33:56,023 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-09 10:34:03,119 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:34:03,134 middleware:19 请求路径/dict/types/ 耗时 0.10073089599609375秒
+ERROR 2026-05-09 10:34:03,136 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158535
+INFO 2026-05-09 10:53:14,862 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-09 10:53:20,033 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:53:20,044 middleware:19 请求路径/dict/types/ 耗时 0.09764599800109863秒
+ERROR 2026-05-09 10:53:20,046 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158559
+ERROR 2026-05-09 10:53:27,291 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:53:27,295 middleware:19 请求路径/dict/types/ 耗时 0.06380581855773926秒
+ERROR 2026-05-09 10:53:27,296 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158559
+ERROR 2026-05-09 10:54:15,332 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:54:15,336 middleware:19 请求路径/dict/types/ 耗时 0.11508464813232422秒
+ERROR 2026-05-09 10:54:15,337 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158603
+ERROR 2026-05-09 10:54:31,147 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\code\uric_api\uric_api\apps\dict\views.py", line 25, in post
+    dict_type.save()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1138, in _save_table
+    updated = self._do_update(
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\base.py", line 1203, in _do_update
+    return filtered._update(values) > 0
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\query.py", line 1288, in _update
+    return query.get_compiler(self.db).execute_sql(ROW_COUNT)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2060, in execute_sql
+    row_count = super().execute_sql(result_type)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 1610, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\backends\mysql\compiler.py", line 49, in as_sql
+    update_query, update_params = super().as_sql()
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\sql\compiler.py", line 2023, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1012, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1005, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1190, in get_prep_value
+    return self.to_python(value)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\db\models\fields\__init__.py", line 1180, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“123”的值应该为True或False']
+WARNING 2026-05-09 10:54:31,151 middleware:19 请求路径/dict/types/ 耗时 0.07582974433898926秒
+ERROR 2026-05-09 10:54:31,152 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 158564
+ERROR 2026-05-09 10:54:40,447 log:253 Internal Server Error: /dict/types/
+Traceback (most recent call last):
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\ProgramData\Anaconda_envs\envs\uric\lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+WARNING 2026-05-09 10:54:40,449 middleware:19 请求路径/dict/types/ 耗时 0.06482791900634766秒
+ERROR 2026-05-09 10:54:40,451 basehttp:213 "POST /dict/types/ HTTP/1.1" 500 83165
+INFO 2026-05-09 11:04:58,531 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-09 11:05:06,138 log:253 Bad Request: /dict/types/
+WARNING 2026-05-09 11:05:06,140 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 83
+WARNING 2026-05-09 11:05:19,461 log:253 Bad Request: /dict/types/
+WARNING 2026-05-09 11:05:19,463 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 89
+WARNING 2026-05-09 11:05:32,276 middleware:19 请求路径/dict/types/ 耗时 0.03385329246520996秒
+INFO 2026-05-09 11:05:32,277 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 265
+INFO 2026-05-09 11:13:56,585 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:13:57,794 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:19:12,866 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:19:14,100 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:19:35,804 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:19:36,991 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:20:15,440 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:20:16,614 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:25:28,950 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:25:30,155 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:39:15,080 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:39:16,323 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-09 11:44:39,609 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-09 11:44:40,861 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-09 13:34:29,055 middleware:19 请求路径/dict/types/ 耗时 0.027922868728637695秒
+WARNING 2026-05-09 13:34:29,058 log:253 Bad Request: /dict/types/
+WARNING 2026-05-09 13:34:29,061 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 67
+WARNING 2026-05-09 13:34:36,639 middleware:19 请求路径/dict/types/ 耗时 0.036870479583740234秒
+INFO 2026-05-09 13:34:36,641 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 266
+INFO 2026-05-25 13:48:00,076 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 13:48:43,660 middleware:19 请求路径/dict/types/ 耗时 0.04587721824645996秒
+INFO 2026-05-25 13:48:43,661 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1095
+INFO 2026-05-25 13:52:01,406 autoreload:265 D:\code\uric_api\uric_api\apps\dict\models.py changed, reloading.
+INFO 2026-05-25 13:52:03,020 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 13:52:36,103 autoreload:265 D:\code\uric_api\uric_api\apps\dict\serializers.py changed, reloading.
+INFO 2026-05-25 13:52:37,808 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 13:54:40,684 autoreload:265 D:\code\uric_api\uric_api\apps\dict\serializers.py changed, reloading.
+INFO 2026-05-25 13:54:42,423 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 13:56:42,759 autoreload:265 D:\code\uric_api\uric_api\apps\dict\urls.py changed, reloading.
+INFO 2026-05-25 13:56:44,352 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 13:58:06,179 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 13:58:11,885 middleware:19 请求路径/dict/types/ 耗时 0.019443988800048828秒
+INFO 2026-05-25 13:58:11,888 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 2556
+WARNING 2026-05-25 14:00:14,159 middleware:19 请求路径/dict/types/1 耗时 0.02692890167236328秒
+INFO 2026-05-25 14:00:14,160 basehttp:213 "GET /dict/types/1 HTTP/1.1" 301 0
+WARNING 2026-05-25 14:00:32,478 middleware:19 请求路径/dict/types/ 耗时 0.014957904815673828秒
+INFO 2026-05-25 14:00:32,480 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 2556
+INFO 2026-05-25 14:01:37,167 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-25 14:01:38,947 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:04:53,993 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:06:45,980 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-05-25 14:06:47,705 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:07:02,694 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-05-25 14:07:04,172 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:10:38,234 autoreload:265 D:\code\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-05-25 14:10:39,626 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:16:02,362 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:16:33,179 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 14:16:39,887 middleware:19 请求路径/dict/types/ 耗时 0.0438838005065918秒
+INFO 2026-05-25 14:16:39,888 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 2556
+WARNING 2026-05-25 14:17:16,478 middleware:19 请求路径/dict/types 耗时 0.012003183364868164秒
+INFO 2026-05-25 14:17:16,479 basehttp:213 "GET /dict/types?status=1 HTTP/1.1" 301 0
+INFO 2026-05-25 14:18:07,001 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:18:10,244 basehttp:213 "GET /dict/types?status=1 HTTP/1.1" 301 0
+WARNING 2026-05-25 14:18:46,561 middleware:19 请求路径/dict/types/ 耗时 0.03490447998046875秒
+INFO 2026-05-25 14:18:46,562 basehttp:213 "GET /dict/types/?status=1 HTTP/1.1" 200 1991
+INFO 2026-05-25 14:19:19,271 basehttp:213 "GET /dict/types/?status=0 HTTP/1.1" 200 562
+INFO 2026-05-25 14:20:07,739 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-25 14:20:09,433 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:20:37,081 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-25 14:20:38,875 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:21:28,350 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 14:21:43,734 middleware:19 请求路径/dict/types/ 耗时 0.033800363540649414秒
+INFO 2026-05-25 14:21:43,735 basehttp:213 "GET /dict/types/?status=0&type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 2
+WARNING 2026-05-25 14:22:56,509 middleware:19 请求路径/dict/types/ 耗时 0.014896631240844727秒
+INFO 2026-05-25 14:22:56,511 basehttp:213 "GET /dict/types/?status=0&type_name=1 HTTP/1.1" 200 562
+WARNING 2026-05-25 14:23:13,145 middleware:19 请求路径/dict/types/ 耗时 0.027916669845581055秒
+INFO 2026-05-25 14:23:13,147 basehttp:213 "GET /dict/types/?status=0&type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 2
+INFO 2026-05-25 14:23:52,003 basehttp:213 "GET /dict/types/?status=0&type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 2
+WARNING 2026-05-25 14:24:24,384 middleware:19 请求路径/dict/types/ 耗时 0.014065027236938477秒
+INFO 2026-05-25 14:24:24,386 basehttp:213 "GET /dict/types/?status=0&type_name=1 HTTP/1.1" 200 562
+INFO 2026-05-25 14:26:08,063 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:26:15,302 basehttp:213 "GET /dict/types/?status=0&type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 2
+INFO 2026-05-25 14:27:09,841 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:27:15,322 basehttp:213 "GET /dict/types/?status=0&type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 2
+WARNING 2026-05-25 14:27:58,151 middleware:19 请求路径/dict/types/ 耗时 0.029675960540771484秒
+INFO 2026-05-25 14:27:58,152 basehttp:213 "GET /dict/types/?type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 1148
+INFO 2026-05-25 14:29:07,691 autoreload:265 D:\code\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-05-25 14:29:09,339 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:31:15,021 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:31:30,905 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 14:31:42,975 middleware:19 请求路径/dict/types/ 耗时 0.03947615623474121秒
+INFO 2026-05-25 14:31:42,977 basehttp:213 "GET /dict/types/?type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 1148
+INFO 2026-05-25 14:32:44,582 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-25 14:33:04,618 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-25 14:33:09,023 middleware:19 请求路径/dict/types/ 耗时 0.03091716766357422秒
+INFO 2026-05-25 14:33:09,027 basehttp:213 "GET /dict/types/?type_name=%E7%94%B5%E8%84%91 HTTP/1.1" 200 1148
+INFO 2026-05-25 14:40:56,620 autoreload:265 D:\code\uric_api\uric_api\apps\dict\serializers.py changed, reloading.
+INFO 2026-05-25 14:40:58,399 autoreload:667 Watching for file changes with StatReloader
