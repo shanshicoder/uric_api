@@ -9,16 +9,17 @@ class DictDataSerializer(serializers.ModelSerializer):
     """
         字典项目序列化类
     """
-    # 前端使用 item_value 字段，映射到数据库的 label 字段
-    item_value = serializers.CharField(source='value', required=True)
-    item_name = serializers.CharField(source='label', required=True)
-    
+    def update(self, instance, validated_data):
+        instance.label = validated_data.get('label', instance.label)
+        instance.value = validated_data.get('value', instance.value)
+        instance.status = validated_data.get('status', instance.status)
+        instance.remark = validated_data.get('remark', instance.remark)
+        instance.save()
+        return instance
+
     class Meta:
-        
         model = DictDataModel
-        fields = ['id', 'is_show', 'orders', 'is_deleted', 'created_time',
-                  'updated_time', 'delete_time', 'remark', 'dict_type',
-                  'item_value', 'item_name', 'status']
+        fields = '__all__'
         
         
 class DictTypeSerializer(serializers.ModelSerializer):
@@ -26,7 +27,15 @@ class DictTypeSerializer(serializers.ModelSerializer):
         字典类型序列化类
     """
     dict_items = DictDataSerializer(many=True, read_only=True)
-    
+
+    def update(self, instance, validated_data):
+        instance.type_name = validated_data.get('type_name', instance.type_name)
+        instance.type_code = validated_data.get('type_code', instance.type_code)
+        instance.status = validated_data.get('status', instance.status)
+        instance.remark = validated_data.get('remark', instance.remark)
+        instance.save()
+        return instance
+
     class Meta:
         model = DictTypeModel
         fields = '__all__'

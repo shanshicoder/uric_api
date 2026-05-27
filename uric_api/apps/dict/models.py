@@ -37,13 +37,10 @@ class DictTypeModel(BaseModel):
 
 
 class DictDataModel(BaseModel):
-	# 关联的字典类型
+
 	dict_type = models.ForeignKey(DictTypeModel, on_delete=models.CASCADE,related_name="dict_items", verbose_name="字典类型")
-	# 显示标签
 	label = models.CharField(max_length=100, verbose_name="显示标签")
-	# 实际值
 	value = models.CharField(max_length=100, verbose_name="字典值")
-	# 状态：启用/禁用
 	status = models.BooleanField(default=True, verbose_name="状态")
 
 	def __str__(self):

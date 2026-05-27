@@ -4,7 +4,6 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from . import views
 
 urlpatterns = [
-    path('deviceCate/' , views.DeviceCateView.as_view( ) , name='devicecate-list-create') ,
-    path('deviceAttr/', views.DeviceAttrView.as_view()),
+    path('device/', views.DeviceMgnAPI.as_view(), name='device_mng_api'),
 ]
 
