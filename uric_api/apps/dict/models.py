@@ -23,7 +23,7 @@ class DictTypeModel(BaseModel):
 	# 字典类型编码，唯一
 	type_code = models.CharField(max_length=100, unique=True, verbose_name="类型编码")
 	# 状态：启用/禁用
-	status = models.CharField(max_length=10, verbose_name="状态")
+	status = models.BooleanField(verbose_name="状态")
 
 	def __str__(self):
 		return self.type_name
@@ -41,7 +41,6 @@ class DictDataModel(BaseModel):
 	dict_type = models.ForeignKey(DictTypeModel, on_delete=models.CASCADE,related_name="dict_items", verbose_name="字典类型")
 	label = models.CharField(max_length=100, verbose_name="显示标签")
 	value = models.CharField(max_length=100, verbose_name="字典值")
-	status = models.BooleanField(default=True, verbose_name="状态")
 
 	def __str__(self):
 		return f"{self.label} ({self.value})"

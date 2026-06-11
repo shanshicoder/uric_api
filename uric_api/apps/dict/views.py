@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -16,21 +17,30 @@ class DictTypeList(APIView):
     """
     def get(self, request, format=None):
 
-        queryset = DictTypeModel.objects.all()
-       
         status = self.request.query_params.get('status')
         query_type_name = self.request.query_params.get('type_name')
-        
+        query_pk = self.request.query_params.get('id')
+        search_val = request.GET.get('search','')
+
         print(f"status: {status}, type_name: {query_type_name}")
+
+        queryset = DictTypeModel.objects.all()
+
+        #   多搜索值查询
+        if search_val:
+            queryset = queryset.filter(
+                Q(type_name__contains=search_val) | Q(type_code__contains=search_val)
+            )
         if status:
             queryset = queryset.filter(status=status)
         if query_type_name:
             queryset = queryset.filter(type_name__contains=query_type_name)
-        
-        # #   在这里直接打印原生 SQL
-        # print("====== 当前执行的 SQL ======")
-        # print(str(queryset.query))
-        # print("===========================")
+        if query_pk:
+            queryset = queryset.filter(id=query_pk)
+        #   在这里直接打印原生 SQL
+        print("====== 当前执行的 SQL ======")
+        print(str(queryset.query))
+        print("===========================")
         return Response(DictTypeSerializer(queryset, many=True).data)
     
     """
@@ -60,13 +70,15 @@ class DictTypeList(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+
+
 class DictDataAPI(APIView):
 
     def get(self, request, format=None):
         """
             根据字典类型id查询对应的字典项目
         """
-        dict_type_id = self.request.query_params.get('dict_type_id')
+        dict_type_id = self.request.query_params.get('type_id')
         try:
             dict_type = DictTypeModel.objects.filter(id=dict_type_id)
         except DictTypeModel.DoesNotExist:

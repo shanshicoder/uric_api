@@ -5,5 +5,6 @@ from . import views
 
 urlpatterns = [
     path('device/', views.DeviceMgnAPI.as_view(), name='device_mng_api'),
+    path('attr/', views.DeviceAttrAPI.as_view(), name='attr_mng_api'),
 ]
 

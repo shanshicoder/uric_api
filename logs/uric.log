@@ -5738,3 +5738,1135 @@ INFO 2026-05-27 16:55:29,927 autoreload:667 Watching for file changes with StatR
 INFO 2026-05-27 16:56:49,820 autoreload:667 Watching for file changes with StatReloader
 INFO 2026-05-27 17:16:34,092 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
 INFO 2026-05-27 17:16:36,227 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 14:24:16,065 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 14:31:10,034 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 14:32:20,500 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 14:32:21,563 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 14:37:41,827 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 15:20:13,252 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-28 15:20:17,634 middleware:19 请求路径/assets/device/attr 耗时 0.03709077835083008秒
+WARNING 2026-05-28 15:20:17,637 log:253 Not Found: /assets/device/attr
+WARNING 2026-05-28 15:20:17,638 basehttp:213 "POST /assets/device/attr HTTP/1.1" 404 3095
+INFO 2026-05-28 15:21:24,185 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\urls.py changed, reloading.
+INFO 2026-05-28 15:21:25,831 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-28 15:21:43,519 middleware:19 请求路径/assets/attr 耗时 0.02068042755126953秒
+ERROR 2026-05-28 15:21:43,624 log:253 Internal Server Error: /assets/attr
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/assets/attr/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2026-05-28 15:21:43,628 basehttp:213 "POST /assets/attr HTTP/1.1" 500 71691
+WARNING 2026-05-28 15:21:58,164 middleware:19 请求路径/assets/attr/ 耗时 0.024011850357055664秒
+INFO 2026-05-28 15:21:58,164 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 276
+INFO 2026-05-28 15:44:45,828 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-28 15:44:49,801 log:253 Bad Request: /assets/attr/
+WARNING 2026-05-28 15:44:49,802 basehttp:213 "POST /assets/attr/ HTTP/1.1" 400 122
+WARNING 2026-05-28 15:49:03,353 middleware:19 请求路径/assets/attr/ 耗时 0.04174685478210449秒
+INFO 2026-05-28 15:49:03,354 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 287
+INFO 2026-05-28 15:58:12,318 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 15:58:13,108 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 15:59:33,731 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 15:59:34,679 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:06:59,044 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:07:00,103 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:11:54,926 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:11:55,809 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:14:47,043 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:14:47,942 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:15:01,714 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:15:02,463 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:15:17,223 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:15:18,097 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:01,916 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:02,908 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:10,799 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:11,651 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:15,299 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:16,035 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:31,743 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:32,638 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:44,350 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:45,266 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:16:49,160 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:16:49,893 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:17:05,596 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:17:06,754 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:17:13,422 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:17:14,341 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:17:49,945 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:17:50,887 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:18:19,262 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:18:20,211 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:18:33,063 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:18:33,964 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:18:35,447 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:18:36,181 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:18:50,961 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:18:51,888 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:19:25,354 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 16:19:26,073 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:29:33,058 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:29:33,857 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:29:40,221 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:29:41,145 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:29:46,425 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:29:47,171 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:29:57,498 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:29:58,334 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:30:23,604 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:30:24,389 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:30:32,253 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:30:33,111 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:31:08,549 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-05-28 16:31:09,316 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:41:49,437 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:42:44,403 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\migrations\0002_alter_deviceattrmodel_attr_name_and_more.py changed, reloading.
+INFO 2026-05-28 16:42:45,593 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 16:43:53,048 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\migrations\0001_initial.py changed, reloading.
+INFO 2026-05-28 16:43:53,914 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-05-28 17:32:32,561 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-05-28 17:32:34,508 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-05-28 17:32:45,362 middleware:19 请求路径/assets/attr/ 耗时 0.02041792869567871秒
+INFO 2026-05-28 17:32:45,364 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 285
+WARNING 2026-05-28 17:33:20,666 middleware:19 请求路径/assets/attr/ 耗时 0.02880072593688965秒
+INFO 2026-05-28 17:33:20,668 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 285
+WARNING 2026-05-28 17:33:37,861 middleware:19 请求路径/assets/attr/ 耗时 0.03942465782165527秒
+INFO 2026-05-28 17:33:37,863 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 285
+WARNING 2026-05-28 17:34:18,469 middleware:19 请求路径/assets/attr/ 耗时 0.038828372955322266秒
+INFO 2026-05-28 17:34:18,471 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 282
+WARNING 2026-05-28 17:34:33,824 middleware:19 请求路径/assets/attr/ 耗时 0.052765607833862305秒
+INFO 2026-05-28 17:34:33,826 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 282
+WARNING 2026-05-28 17:34:44,014 middleware:19 请求路径/assets/attr/ 耗时 0.025035858154296875秒
+INFO 2026-05-28 17:34:44,016 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 279
+WARNING 2026-05-28 17:34:51,945 middleware:19 请求路径/assets/attr/ 耗时 0.021689414978027344秒
+INFO 2026-05-28 17:34:51,947 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 282
+WARNING 2026-05-28 17:35:15,882 middleware:19 请求路径/assets/attr/ 耗时 0.031304121017456055秒
+INFO 2026-05-28 17:35:15,885 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 282
+WARNING 2026-05-28 17:35:21,316 middleware:19 请求路径/assets/attr/ 耗时 0.03136110305786133秒
+INFO 2026-05-28 17:35:21,318 basehttp:213 "POST /assets/attr/ HTTP/1.1" 201 282
+ERROR 2026-05-28 17:35:53,473 log:253 Internal Server Error: /assets/attr/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 32, in get
+    build_tree(attr_list)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 44, in build_tree
+    parent.children.append(attr)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'DeviceAttrModel' object has no attribute 'children'
+WARNING 2026-05-28 17:35:53,488 middleware:19 请求路径/assets/attr/ 耗时 0.30228638648986816秒
+ERROR 2026-05-28 17:35:53,489 basehttp:213 "GET /assets/attr/ HTTP/1.1" 500 98105
+INFO 2026-05-28 17:57:07,094 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-05-28 17:57:10,019 log:253 Internal Server Error: /assets/attr/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 32, in get
+    build_tree(attr_list)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 44, in build_tree
+    parent.children.append(attr)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'DeviceAttrModel' object has no attribute 'children'
+WARNING 2026-05-28 17:57:10,033 middleware:19 请求路径/assets/attr/ 耗时 0.15818214416503906秒
+ERROR 2026-05-28 17:57:10,035 basehttp:213 "GET /assets/attr/ HTTP/1.1" 500 98104
+INFO 2026-06-04 16:20:41,984 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-06-04 16:20:46,227 log:253 Internal Server Error: /assets/attr/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 32, in get
+    build_tree(attr_list)
+    ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\project\uric\uric_api\uric_api\apps\device\views.py", line 44, in build_tree
+    parent.children.append(attr)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'DeviceAttrModel' object has no attribute 'children'
+WARNING 2026-06-04 16:20:46,233 middleware:19 请求路径/assets/attr/ 耗时 0.17219996452331543秒
+ERROR 2026-06-04 16:20:46,234 basehttp:213 "GET /assets/attr/ HTTP/1.1" 500 98102
+INFO 2026-06-04 16:24:37,849 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:24:39,154 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:24:48,246 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:24:49,345 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:25:03,367 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:25:04,171 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:25:30,598 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:25:31,376 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:06,150 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:07,055 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:16,825 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:17,904 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:23,585 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:24,876 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:30,846 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:31,761 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:35,577 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:36,595 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:41,460 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:42,435 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:50,310 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:51,186 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:26:59,049 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:26:59,898 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:27:11,779 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:27:12,736 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:27:25,500 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:27:26,455 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:27:35,050 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:27:35,988 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:27:46,753 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:27:47,629 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:00,511 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:01,331 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:12,145 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:13,227 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:27,282 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:28,262 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:35,844 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:36,669 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:48,342 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:49,255 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:28:50,941 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:28:51,738 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:29:11,685 autoreload:667 Watching for file changes with StatReloader
+ERROR 2026-06-04 16:29:18,870 log:253 Internal Server Error: /assets/attr/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+WARNING 2026-06-04 16:29:18,875 middleware:19 请求路径/assets/attr/ 耗时 0.06551218032836914秒
+ERROR 2026-06-04 16:29:18,876 basehttp:213 "GET /assets/attr/ HTTP/1.1" 500 81145
+INFO 2026-06-04 16:30:12,345 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-04 16:30:14,892 middleware:19 请求路径/assets/attr/ 耗时 0.010354042053222656秒
+INFO 2026-06-04 16:30:14,892 basehttp:213 "GET /assets/attr/ HTTP/1.1" 200 2678
+INFO 2026-06-04 16:34:07,484 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 16:34:08,455 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:45:22,224 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 16:45:22,969 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:46:49,876 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 16:46:50,815 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:48:56,391 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 16:48:57,316 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:50:40,669 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 16:50:41,546 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 16:58:59,217 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 16:59:00,025 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 17:00:32,935 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 17:01:12,472 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 17:01:13,351 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 17:07:26,833 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\views.py changed, reloading.
+INFO 2026-06-04 17:07:27,921 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-04 17:10:16,438 log:253 Bad Request: /assets/device/
+WARNING 2026-06-04 17:10:16,438 basehttp:213 "POST /assets/device/ HTTP/1.1" 400 78
+INFO 2026-06-04 17:11:06,888 autoreload:265 E:\project\uric\uric_api\uric_api\apps\device\models.py changed, reloading.
+INFO 2026-06-04 17:11:07,677 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-04 17:11:18,793 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-04 17:11:22,485 middleware:19 请求路径/assets/device/ 耗时 0.020926713943481445秒
+INFO 2026-06-04 17:11:22,487 basehttp:213 "POST /assets/device/ HTTP/1.1" 201 410
+WARNING 2026-06-04 17:12:17,015 log:253 Method Not Allowed: /assets/device/
+WARNING 2026-06-04 17:12:17,016 basehttp:213 "PUT /assets/device/ HTTP/1.1" 405 45
+INFO 2026-06-04 17:20:10,025 autoreload:265 E:\project\uric\uric_api\uric_api\settings\dev.py changed, reloading.
+INFO 2026-06-08 11:01:45,789 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-08 11:45:10,629 middleware:19 请求路径/dict/types/ 耗时 0.19211506843566895秒
+INFO 2026-06-08 11:45:10,633 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 11:45:11,872 middleware:19 请求路径/dict/types/ 耗时 0.022637128829956055秒
+INFO 2026-06-08 11:45:11,874 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 11:45:13,400 middleware:19 请求路径/dict/types/ 耗时 0.03220081329345703秒
+INFO 2026-06-08 11:45:13,405 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 11:45:14,417 middleware:19 请求路径/dict/types/ 耗时 0.02058100700378418秒
+INFO 2026-06-08 11:45:14,421 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 11:45:15,217 middleware:19 请求路径/dict/types/ 耗时 0.017660140991210938秒
+INFO 2026-06-08 11:45:15,218 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 11:45:15,774 middleware:19 请求路径/dict/types/ 耗时 0.019744873046875秒
+INFO 2026-06-08 11:45:15,776 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:10:37,407 middleware:19 请求路径/dict/items/ 耗时 0.034470319747924805秒
+WARNING 2026-06-08 14:10:37,418 middleware:19 请求路径/dict/types/ 耗时 0.04550457000732422秒
+INFO 2026-06-08 14:10:37,418 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+INFO 2026-06-08 14:10:37,422 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+INFO 2026-06-08 14:10:41,541 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:10:41,571 middleware:19 请求路径/dict/types/ 耗时 0.03904867172241211秒
+INFO 2026-06-08 14:10:41,572 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:16:52,508 middleware:19 请求路径/dict/items/ 耗时 0.015909433364868164秒
+INFO 2026-06-08 14:16:52,512 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:16:52,515 middleware:19 请求路径/dict/types/ 耗时 0.023066043853759766秒
+INFO 2026-06-08 14:16:52,516 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:16:56,294 middleware:19 请求路径/dict/types/ 耗时 0.013275146484375秒
+INFO 2026-06-08 14:16:56,300 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:16:56,309 middleware:19 请求路径/dict/items/ 耗时 0.012959480285644531秒
+INFO 2026-06-08 14:16:56,310 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+INFO 2026-06-08 14:19:52,594 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:19:52,617 middleware:19 请求路径/dict/types/ 耗时 0.030798912048339844秒
+INFO 2026-06-08 14:19:52,618 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:19:56,094 middleware:19 请求路径/dict/items/ 耗时 0.03382563591003418秒
+WARNING 2026-06-08 14:19:56,097 middleware:19 请求路径/dict/types/ 耗时 0.03734016418457031秒
+INFO 2026-06-08 14:19:56,098 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+INFO 2026-06-08 14:19:56,099 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:21:56,240 middleware:19 请求路径/dict/items/ 耗时 0.012628793716430664秒
+INFO 2026-06-08 14:21:56,242 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:21:56,248 middleware:19 请求路径/dict/types/ 耗时 0.020534753799438477秒
+INFO 2026-06-08 14:21:56,248 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+INFO 2026-06-08 14:21:58,298 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:21:58,310 middleware:19 请求路径/dict/types/ 耗时 0.020051240921020508秒
+INFO 2026-06-08 14:21:58,311 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+INFO 2026-06-08 14:22:02,617 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:22:02,634 middleware:19 请求路径/dict/types/ 耗时 0.030585050582885742秒
+INFO 2026-06-08 14:22:02,636 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:23:26,202 middleware:19 请求路径/dict/types/ 耗时 0.013289451599121094秒
+INFO 2026-06-08 14:23:26,203 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:23:26,217 middleware:19 请求路径/dict/items/ 耗时 0.0284726619720459秒
+INFO 2026-06-08 14:23:26,218 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+INFO 2026-06-08 14:23:29,350 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:23:29,380 middleware:19 请求路径/dict/types/ 耗时 0.037467241287231445秒
+INFO 2026-06-08 14:23:29,381 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:23:43,259 middleware:19 请求路径/dict/types/ 耗时 0.013049602508544922秒
+INFO 2026-06-08 14:23:43,260 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:25:31,276 middleware:19 请求路径/dict/types/ 耗时 0.01785421371459961秒
+INFO 2026-06-08 14:25:31,279 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:26:28,009 middleware:19 请求路径/dict/types/ 耗时 0.024295330047607422秒
+INFO 2026-06-08 14:26:28,011 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:26:31,604 middleware:19 请求路径/dict/types/ 耗时 0.03034377098083496秒
+INFO 2026-06-08 14:26:31,608 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:31:25,589 middleware:19 请求路径/dict/types/ 耗时 0.015569210052490234秒
+WARNING 2026-06-08 14:31:25,591 middleware:19 请求路径/dict/items/ 耗时 0.017531156539916992秒
+INFO 2026-06-08 14:31:25,592 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+INFO 2026-06-08 14:31:25,593 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:31:27,729 middleware:19 请求路径/dict/types/ 耗时 0.017771482467651367秒
+INFO 2026-06-08 14:31:27,731 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:31:44,789 middleware:19 请求路径/dict/items/ 耗时 0.012663125991821289秒
+WARNING 2026-06-08 14:31:44,793 middleware:19 请求路径/dict/types/ 耗时 0.01682567596435547秒
+INFO 2026-06-08 14:31:44,794 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+INFO 2026-06-08 14:31:44,795 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:31:47,333 middleware:19 请求路径/dict/types/ 耗时 0.04113292694091797秒
+INFO 2026-06-08 14:31:47,336 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:33:17,105 middleware:19 请求路径/dict/items/ 耗时 0.021193504333496094秒
+INFO 2026-06-08 14:33:17,109 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:33:17,112 middleware:19 请求路径/dict/types/ 耗时 0.028302907943725586秒
+INFO 2026-06-08 14:33:17,113 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:33:28,356 middleware:19 请求路径/dict/types/ 耗时 0.010604619979858398秒
+INFO 2026-06-08 14:33:28,358 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:33:31,443 middleware:19 请求路径/dict/items/ 耗时 0.010759592056274414秒
+INFO 2026-06-08 14:33:31,446 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 14:33:31,449 middleware:19 请求路径/dict/types/ 耗时 0.017157793045043945秒
+INFO 2026-06-08 14:33:31,450 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:34:02,066 middleware:19 请求路径/dict/types/ 耗时 0.03461432456970215秒
+INFO 2026-06-08 14:34:02,068 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:34:04,501 middleware:19 请求路径/dict/types/ 耗时 0.031911611557006836秒
+INFO 2026-06-08 14:34:04,502 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:37:58,298 middleware:19 请求路径/dict/types/ 耗时 0.02275395393371582秒
+INFO 2026-06-08 14:37:58,298 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:39:27,299 middleware:19 请求路径/dict/types/ 耗时 0.01841259002685547秒
+INFO 2026-06-08 14:39:27,300 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+INFO 2026-06-08 14:41:58,987 basehttp:213 "OPTIONS /dict/types/ HTTP/1.1" 200 0
+WARNING 2026-06-08 14:41:59,023 middleware:19 请求路径/dict/types/ 耗时 0.031804561614990234秒
+WARNING 2026-06-08 14:41:59,028 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:41:59,028 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:42:40,008 middleware:19 请求路径/dict/types/ 耗时 0.024265527725219727秒
+WARNING 2026-06-08 14:42:40,008 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:42:40,009 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:44:19,946 middleware:19 请求路径/dict/types/ 耗时 0.020787715911865234秒
+INFO 2026-06-08 14:44:19,947 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:44:24,690 middleware:19 请求路径/dict/types/ 耗时 0.03613591194152832秒
+INFO 2026-06-08 14:44:24,691 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:44:51,720 middleware:19 请求路径/dict/types/ 耗时 0.030989885330200195秒
+WARNING 2026-06-08 14:44:51,720 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:44:51,721 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:46:30,690 middleware:19 请求路径/dict/types/ 耗时 0.026759862899780273秒
+WARNING 2026-06-08 14:46:30,690 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:46:30,691 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:46:32,959 middleware:19 请求路径/dict/types/ 耗时 0.029247760772705078秒
+WARNING 2026-06-08 14:46:32,959 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:46:32,960 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:46:35,206 middleware:19 请求路径/dict/types/ 耗时 0.026198863983154297秒
+WARNING 2026-06-08 14:46:35,206 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:46:35,207 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:46:55,896 middleware:19 请求路径/dict/types/ 耗时 0.025504112243652344秒
+WARNING 2026-06-08 14:46:55,896 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:46:55,897 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:46:57,975 middleware:19 请求路径/dict/types/ 耗时 0.015584230422973633秒
+WARNING 2026-06-08 14:46:57,975 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:46:57,977 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:47:01,035 middleware:19 请求路径/dict/types/ 耗时 0.017858505249023438秒
+INFO 2026-06-08 14:47:01,035 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:47:51,332 middleware:19 请求路径/dict/types/ 耗时 0.012139558792114258秒
+INFO 2026-06-08 14:47:51,333 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1101
+WARNING 2026-06-08 14:48:04,248 middleware:19 请求路径/dict/types/ 耗时 0.020672082901000977秒
+WARNING 2026-06-08 14:48:04,248 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:48:04,249 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:48:08,588 middleware:19 请求路径/dict/types/ 耗时 0.021119117736816406秒
+WARNING 2026-06-08 14:48:08,589 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:48:08,589 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:49:43,785 middleware:19 请求路径/dict/types/ 耗时 0.0178225040435791秒
+WARNING 2026-06-08 14:49:43,786 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:49:43,787 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:51:50,700 middleware:19 请求路径/dict/types/ 耗时 0.024697542190551758秒
+WARNING 2026-06-08 14:51:50,701 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:51:50,701 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+WARNING 2026-06-08 14:52:04,702 middleware:19 请求路径/dict/types/ 耗时 0.027459144592285156秒
+WARNING 2026-06-08 14:52:04,703 log:253 Bad Request: /dict/types/
+WARNING 2026-06-08 14:52:04,703 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 42
+INFO 2026-06-08 14:53:50,736 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\models.py changed, reloading.
+INFO 2026-06-08 14:53:52,702 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-08 14:55:16,954 middleware:19 请求路径/dict/types/ 耗时 0.04231834411621094秒
+INFO 2026-06-08 14:55:16,955 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 288
+WARNING 2026-06-08 14:55:17,020 middleware:19 请求路径/dict/types/ 耗时 0.03552865982055664秒
+INFO 2026-06-08 14:55:17,021 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 14:55:42,675 middleware:19 请求路径/dict/types/ 耗时 0.013318777084350586秒
+INFO 2026-06-08 14:55:42,676 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+ERROR 2026-06-08 15:00:12,200 log:253 Internal Server Error: /dict/types/1/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:00:12,205 middleware:19 请求路径/dict/types/1/ 耗时 0.19131851196289062秒
+ERROR 2026-06-08 15:00:12,206 basehttp:213 "GET /dict/types/1/ HTTP/1.1" 500 92195
+WARNING 2026-06-08 15:00:20,404 middleware:19 请求路径/dict/items/ 耗时 0.026317119598388672秒
+INFO 2026-06-08 15:00:20,405 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 15:00:20,409 middleware:19 请求路径/dict/types/ 耗时 0.0313570499420166秒
+INFO 2026-06-08 15:00:20,410 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:00:21,819 middleware:19 请求路径/dict/types/ 耗时 0.03553295135498047秒
+INFO 2026-06-08 15:00:21,819 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+ERROR 2026-06-08 15:01:04,151 log:253 Internal Server Error: /dict/types/1/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:01:04,152 middleware:19 请求路径/dict/types/1/ 耗时 0.02369093894958496秒
+ERROR 2026-06-08 15:01:04,153 basehttp:213 "GET /dict/types/1/ HTTP/1.1" 500 92195
+ERROR 2026-06-08 15:01:09,385 log:253 Internal Server Error: /dict/types/1/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:01:09,386 middleware:19 请求路径/dict/types/1/ 耗时 0.025447607040405273秒
+ERROR 2026-06-08 15:01:09,387 basehttp:213 "GET /dict/types/1/ HTTP/1.1" 500 92195
+WARNING 2026-06-08 15:02:13,763 middleware:19 请求路径/dict/types/ 耗时 0.02648305892944336秒
+INFO 2026-06-08 15:02:13,764 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+ERROR 2026-06-08 15:02:29,342 log:253 Internal Server Error: /dict/types/1/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:02:29,344 middleware:19 请求路径/dict/types/1/ 耗时 0.05050086975097656秒
+ERROR 2026-06-08 15:02:29,345 basehttp:213 "GET /dict/types/1/ HTTP/1.1" 500 92195
+ERROR 2026-06-08 15:02:39,557 log:253 Internal Server Error: /dict/types/2/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:02:39,558 middleware:19 请求路径/dict/types/2/ 耗时 0.042795658111572266秒
+ERROR 2026-06-08 15:02:39,558 basehttp:213 "GET /dict/types/2/ HTTP/1.1" 500 92195
+WARNING 2026-06-08 15:04:29,443 middleware:19 请求路径/dict/items/ 耗时 0.017484426498413086秒
+INFO 2026-06-08 15:04:29,444 basehttp:213 "GET /dict/items/?dict_type_id=1 HTTP/1.1" 200 815
+ERROR 2026-06-08 15:04:57,356 log:253 Internal Server Error: /dict/types/1/
+Traceback (most recent call last):
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\Program Files\anaconda3\envs\uric\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: DictTypeList.get() got an unexpected keyword argument 'pk'
+WARNING 2026-06-08 15:04:57,357 middleware:19 请求路径/dict/types/1/ 耗时 0.028535127639770508秒
+ERROR 2026-06-08 15:04:57,359 basehttp:213 "GET /dict/types/1/ HTTP/1.1" 500 90785
+WARNING 2026-06-08 15:06:09,886 middleware:19 请求路径/dict/types 耗时 0.02335214614868164秒
+INFO 2026-06-08 15:06:09,887 basehttp:213 "GET /dict/types HTTP/1.1" 301 0
+WARNING 2026-06-08 15:06:16,926 middleware:19 请求路径/dict/types/ 耗时 0.03157305717468262秒
+INFO 2026-06-08 15:06:16,927 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:14,628 middleware:19 请求路径/dict/types/ 耗时 0.017693519592285156秒
+INFO 2026-06-08 15:08:14,629 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:19,894 middleware:19 请求路径/dict/types/ 耗时 0.04199957847595215秒
+INFO 2026-06-08 15:08:19,897 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:40,485 middleware:19 请求路径/dict/types/ 耗时 0.017704248428344727秒
+INFO 2026-06-08 15:08:40,486 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:43,574 middleware:19 请求路径/dict/types/ 耗时 0.040413856506347656秒
+INFO 2026-06-08 15:08:43,575 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:44,230 middleware:19 请求路径/dict/types/ 耗时 0.019881486892700195秒
+INFO 2026-06-08 15:08:44,231 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:47,332 middleware:19 请求路径/dict/types/ 耗时 0.037050724029541016秒
+INFO 2026-06-08 15:08:47,336 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:55,137 middleware:19 请求路径/dict/types/ 耗时 0.03717827796936035秒
+INFO 2026-06-08 15:08:55,138 basehttp:213 "GET /dict/types/?id=2 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:08:56,977 middleware:19 请求路径/dict/types/ 耗时 0.01327204704284668秒
+INFO 2026-06-08 15:08:56,977 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:09:23,274 middleware:19 请求路径/dict/types/ 耗时 0.015819549560546875秒
+INFO 2026-06-08 15:09:23,274 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:09:23,993 middleware:19 请求路径/dict/types/ 耗时 0.029995441436767578秒
+INFO 2026-06-08 15:09:23,995 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:09:25,698 middleware:19 请求路径/dict/types/ 耗时 0.03191733360290527秒
+INFO 2026-06-08 15:09:25,699 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:10:10,124 middleware:19 请求路径/dict/types/ 耗时 0.03480339050292969秒
+INFO 2026-06-08 15:10:10,125 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:10:11,812 middleware:19 请求路径/dict/types/ 耗时 0.03667855262756348秒
+INFO 2026-06-08 15:10:11,812 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:10:23,000 middleware:19 请求路径/dict/types/ 耗时 0.022115468978881836秒
+INFO 2026-06-08 15:10:23,001 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1392
+INFO 2026-06-08 15:11:12,004 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-08 15:11:12,968 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-08 15:11:15,659 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-08 15:11:16,806 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-08 15:16:33,065 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-08 15:16:43,392 middleware:19 请求路径/dict/types/ 耗时 0.029051542282104492秒
+INFO 2026-06-08 15:16:43,393 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:17:36,742 middleware:19 请求路径/dict/types/ 耗时 0.0276639461517334秒
+INFO 2026-06-08 15:17:36,743 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:17:39,938 middleware:19 请求路径/dict/types/ 耗时 0.034012556076049805秒
+INFO 2026-06-08 15:17:39,938 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+INFO 2026-06-08 15:18:16,840 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:19:23,785 middleware:19 请求路径/dict/types/ 耗时 0.023621797561645508秒
+INFO 2026-06-08 15:19:23,786 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:19:26,222 middleware:19 请求路径/dict/types/ 耗时 0.02330303192138672秒
+INFO 2026-06-08 15:19:26,222 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:19:58,385 middleware:19 请求路径/dict/types/ 耗时 0.028209924697875977秒
+INFO 2026-06-08 15:19:58,386 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:20:00,825 middleware:19 请求路径/dict/types/ 耗时 0.028174400329589844秒
+INFO 2026-06-08 15:20:00,826 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+INFO 2026-06-08 15:20:24,398 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:20:28,720 middleware:19 请求路径/dict/types/ 耗时 0.03370809555053711秒
+INFO 2026-06-08 15:20:28,720 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:21:02,655 middleware:19 请求路径/dict/types/ 耗时 0.02137589454650879秒
+INFO 2026-06-08 15:21:02,656 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:21:36,790 middleware:19 请求路径/dict/types/ 耗时 0.01164865493774414秒
+INFO 2026-06-08 15:21:36,791 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:21:39,036 middleware:19 请求路径/dict/types/ 耗时 0.028385400772094727秒
+INFO 2026-06-08 15:21:39,037 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:21:58,922 middleware:19 请求路径/dict/types/ 耗时 0.014937639236450195秒
+INFO 2026-06-08 15:21:58,923 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:22:00,515 middleware:19 请求路径/dict/types/ 耗时 0.026677370071411133秒
+INFO 2026-06-08 15:22:00,515 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-08 15:22:04,893 middleware:19 请求路径/dict/types/ 耗时 0.020162343978881836秒
+INFO 2026-06-08 15:22:04,894 basehttp:213 "GET /dict/types/?id=2 HTTP/1.1" 200 290
+WARNING 2026-06-08 15:29:16,737 middleware:19 请求路径/dict/types/ 耗时 0.01192331314086914秒
+INFO 2026-06-08 15:29:16,738 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+INFO 2026-06-08 15:30:03,848 basehttp:213 "OPTIONS /dict/types/1/ HTTP/1.1" 200 0
+WARNING 2026-06-08 15:30:03,877 middleware:19 请求路径/dict/types/1/ 耗时 0.025771379470825195秒
+INFO 2026-06-08 15:30:03,878 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1098
+WARNING 2026-06-08 15:30:03,927 middleware:19 请求路径/dict/types/ 耗时 0.016342639923095703秒
+INFO 2026-06-08 15:30:03,928 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1389
+WARNING 2026-06-08 15:30:13,181 middleware:19 请求路径/dict/types/ 耗时 0.03001856803894043秒
+INFO 2026-06-08 15:30:13,182 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1100
+INFO 2026-06-08 15:30:23,744 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 15:30:23,751 middleware:19 请求路径/dict/types/ 耗时 0.016515254974365234秒
+INFO 2026-06-08 15:30:23,752 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1389
+WARNING 2026-06-08 15:30:25,623 middleware:19 请求路径/dict/types/ 耗时 0.019314289093017578秒
+INFO 2026-06-08 15:30:25,625 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1389
+WARNING 2026-06-08 15:30:28,247 middleware:19 请求路径/dict/types/ 耗时 0.032258033752441406秒
+INFO 2026-06-08 15:30:28,247 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1100
+WARNING 2026-06-08 15:30:35,385 middleware:19 请求路径/dict/types/1/ 耗时 0.029929161071777344秒
+INFO 2026-06-08 15:30:35,385 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+WARNING 2026-06-08 15:30:35,431 middleware:19 请求路径/dict/types/ 耗时 0.023979663848876953秒
+INFO 2026-06-08 15:30:35,431 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:30:38,810 middleware:19 请求路径/dict/items/ 耗时 0.017879724502563477秒
+INFO 2026-06-08 15:30:38,819 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-08 15:30:38,822 middleware:19 请求路径/dict/types/ 耗时 0.029852628707885742秒
+INFO 2026-06-08 15:30:38,823 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:30:42,908 middleware:19 请求路径/dict/types/ 耗时 0.023695707321166992秒
+INFO 2026-06-08 15:30:42,909 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:30:47,882 middleware:19 请求路径/dict/types/ 耗时 0.014844655990600586秒
+INFO 2026-06-08 15:30:47,883 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:31:19,425 middleware:19 请求路径/dict/types/ 耗时 0.0289919376373291秒
+INFO 2026-06-08 15:31:19,425 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-08 15:32:08,755 middleware:19 请求路径/dict/types/ 耗时 0.011708974838256836秒
+INFO 2026-06-08 15:32:08,756 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:22:58,593 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-09 10:24:17,157 middleware:19 请求路径/dict/types/ 耗时 0.031033992767333984秒
+INFO 2026-06-09 10:24:17,158 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:24:19,457 middleware:19 请求路径/dict/items/ 耗时 0.011986255645751953秒
+WARNING 2026-06-09 10:24:19,459 middleware:19 请求路径/dict/types/ 耗时 0.014727115631103516秒
+INFO 2026-06-09 10:24:19,460 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+INFO 2026-06-09 10:24:19,461 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:24:20,071 middleware:19 请求路径/dict/types/ 耗时 0.022313594818115234秒
+INFO 2026-06-09 10:24:20,072 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:24:24,345 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:24:24,349 middleware:19 请求路径/dict/types/ 耗时 0.013586282730102539秒
+INFO 2026-06-09 10:24:24,350 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:24:25,299 middleware:19 请求路径/dict/types/ 耗时 0.028543949127197266秒
+INFO 2026-06-09 10:24:25,300 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:24:28,916 middleware:19 请求路径/dict/types/ 耗时 0.028185606002807617秒
+INFO 2026-06-09 10:24:28,917 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:24:38,230 basehttp:213 "OPTIONS /dict/types/1/ HTTP/1.1" 200 0
+WARNING 2026-06-09 10:24:38,250 middleware:19 请求路径/dict/types/1/ 耗时 0.018238067626953125秒
+INFO 2026-06-09 10:24:38,251 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+INFO 2026-06-09 10:24:38,277 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1391
+WARNING 2026-06-09 10:24:39,066 middleware:19 请求路径/dict/types/1/ 耗时 0.0256197452545166秒
+INFO 2026-06-09 10:24:39,067 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+WARNING 2026-06-09 10:24:39,104 middleware:19 请求路径/dict/types/ 耗时 0.027976036071777344秒
+INFO 2026-06-09 10:24:39,105 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:24:45,106 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:24:45,130 middleware:19 请求路径/dict/types/ 耗时 0.031958818435668945秒
+INFO 2026-06-09 10:24:45,130 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:24:46,616 middleware:19 请求路径/dict/types/ 耗时 0.020276784896850586秒
+INFO 2026-06-09 10:24:46,617 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:25:05,458 middleware:19 请求路径/dict/items/ 耗时 0.013007640838623047秒
+INFO 2026-06-09 10:25:05,462 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:25:05,469 middleware:19 请求路径/dict/types/ 耗时 0.023120641708374023秒
+INFO 2026-06-09 10:25:05,470 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:25:41,882 middleware:19 请求路径/dict/types/ 耗时 0.027191162109375秒
+INFO 2026-06-09 10:25:41,882 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:25:44,570 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:25:44,574 middleware:19 请求路径/dict/types/ 耗时 0.016791820526123047秒
+INFO 2026-06-09 10:25:44,575 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+INFO 2026-06-09 10:27:02,402 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:27:02,414 middleware:19 请求路径/dict/types/ 耗时 0.018908977508544922秒
+INFO 2026-06-09 10:27:02,415 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:27:04,066 middleware:19 请求路径/dict/types/ 耗时 0.027126550674438477秒
+INFO 2026-06-09 10:27:04,067 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:27:06,443 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:27:06,459 middleware:19 请求路径/dict/types/ 耗时 0.023474454879760742秒
+INFO 2026-06-09 10:27:06,460 basehttp:213 "GET /dict/types/ HTTP/1.1" 200 1392
+INFO 2026-06-09 10:33:01,023 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:33:05,510 middleware:19 请求路径/dict/types/ 耗时 0.03082871437072754秒
+INFO 2026-06-09 10:33:05,511 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:33:08,677 middleware:19 请求路径/dict/items/ 耗时 0.026204586029052734秒
+INFO 2026-06-09 10:33:08,677 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+INFO 2026-06-09 10:34:46,823 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-09 10:34:53,657 middleware:19 请求路径/dict/types/ 耗时 0.018328428268432617秒
+INFO 2026-06-09 10:34:53,658 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:34:55,080 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+INFO 2026-06-09 10:35:50,049 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-09 10:35:53,546 middleware:19 请求路径/dict/types/ 耗时 0.04815530776977539秒
+INFO 2026-06-09 10:35:53,547 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:35:54,550 basehttp:213 "GET /dict/items/?params%5Bpage%5D=1&params%5Bpage_size%5D=10&params%5Btype_id%5D=1 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:36:45,287 middleware:19 请求路径/dict/items/ 耗时 0.018166065216064453秒
+INFO 2026-06-09 10:36:45,288 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+WARNING 2026-06-09 10:36:54,388 middleware:19 请求路径/dict/types/ 耗时 0.07659077644348145秒
+INFO 2026-06-09 10:36:54,389 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:36:55,664 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+WARNING 2026-06-09 10:36:56,747 middleware:19 请求路径/dict/types/ 耗时 0.03265213966369629秒
+INFO 2026-06-09 10:36:56,747 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:36:57,494 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=2 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:36:58,689 middleware:19 请求路径/dict/types/ 耗时 0.01494908332824707秒
+INFO 2026-06-09 10:36:58,690 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:36:59,442 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+WARNING 2026-06-09 10:37:02,949 middleware:19 请求路径/dict/types/ 耗时 0.012899637222290039秒
+INFO 2026-06-09 10:37:02,951 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:37:06,949 middleware:19 请求路径/dict/items/ 耗时 0.01782965660095215秒
+INFO 2026-06-09 10:37:06,950 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-09 10:38:12,823 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-09 10:41:09,110 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-09 10:41:13,054 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:41:13,917 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-09 10:41:34,951 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-09 10:41:44,952 basehttp:213 "OPTIONS /dict/items/[object%20Object]/ HTTP/1.1" 200 0
+WARNING 2026-06-09 10:41:44,982 middleware:19 请求路径/dict/items/[object Object]/ 耗时 0.028794050216674805秒
+WARNING 2026-06-09 10:41:44,984 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-09 10:41:44,984 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-09 10:41:45,837 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-09 10:41:45,837 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-09 10:41:46,250 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-09 10:41:46,250 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-09 10:41:46,695 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-09 10:41:46,696 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-09 10:41:55,694 middleware:19 请求路径/dict/types/ 耗时 0.012238264083862305秒
+INFO 2026-06-09 10:41:55,694 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:44:55,733 middleware:19 请求路径/dict/items/ 耗时 0.02415943145751953秒
+INFO 2026-06-09 10:44:55,734 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:44:57,080 middleware:19 请求路径/dict/types/ 耗时 0.027628183364868164秒
+INFO 2026-06-09 10:44:57,081 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:44:57,853 middleware:19 请求路径/dict/items/ 耗时 0.023692607879638672秒
+INFO 2026-06-09 10:44:57,855 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:45:00,084 middleware:19 请求路径/dict/types/ 耗时 0.011450052261352539秒
+INFO 2026-06-09 10:45:00,084 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:45:00,651 middleware:19 请求路径/dict/items/ 耗时 0.01641058921813965秒
+INFO 2026-06-09 10:45:00,651 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:45:08,068 middleware:19 请求路径/dict/types/ 耗时 0.011399030685424805秒
+INFO 2026-06-09 10:45:08,068 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:45:19,631 middleware:19 请求路径/dict/items/ 耗时 0.02459239959716797秒
+INFO 2026-06-09 10:45:19,632 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:45:20,781 middleware:19 请求路径/dict/types/ 耗时 0.030930042266845703秒
+INFO 2026-06-09 10:45:20,781 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:45:21,581 middleware:19 请求路径/dict/items/ 耗时 0.019840717315673828秒
+INFO 2026-06-09 10:45:21,581 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+INFO 2026-06-09 10:47:04,670 basehttp:213 "GET /dict/items/?page=1&page_size=10 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:48:12,280 middleware:19 请求路径/dict/types/ 耗时 0.02985548973083496秒
+INFO 2026-06-09 10:48:12,281 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:48:19,082 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:48:22,643 middleware:19 请求路径/dict/types/ 耗时 0.024569034576416016秒
+INFO 2026-06-09 10:48:22,648 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:48:26,513 middleware:19 请求路径/dict/types/ 耗时 0.014279603958129883秒
+INFO 2026-06-09 10:48:26,514 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:49:57,115 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-09 10:49:57,953 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-09 10:49:58,788 basehttp:213 "OPTIONS /dict/types/2/ HTTP/1.1" 200 0
+WARNING 2026-06-09 10:49:58,809 middleware:19 请求路径/dict/types/2/ 耗时 0.015645503997802734秒
+INFO 2026-06-09 10:49:58,810 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 289
+WARNING 2026-06-09 10:49:58,852 middleware:19 请求路径/dict/types/ 耗时 0.024518251419067383秒
+INFO 2026-06-09 10:49:58,853 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1393
+WARNING 2026-06-09 10:49:59,836 middleware:19 请求路径/dict/types/2/ 耗时 0.01625847816467285秒
+INFO 2026-06-09 10:49:59,836 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 288
+WARNING 2026-06-09 10:49:59,869 middleware:19 请求路径/dict/types/ 耗时 0.023378372192382812秒
+INFO 2026-06-09 10:49:59,870 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:00,569 middleware:19 请求路径/dict/types/1/ 耗时 0.03355669975280762秒
+INFO 2026-06-09 10:50:00,570 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+WARNING 2026-06-09 10:50:00,603 middleware:19 请求路径/dict/types/ 耗时 0.022060394287109375秒
+INFO 2026-06-09 10:50:00,604 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1391
+WARNING 2026-06-09 10:50:01,252 middleware:19 请求路径/dict/types/1/ 耗时 0.02542400360107422秒
+INFO 2026-06-09 10:50:01,253 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+WARNING 2026-06-09 10:50:01,283 middleware:19 请求路径/dict/types/ 耗时 0.02061295509338379秒
+INFO 2026-06-09 10:50:01,283 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:02,067 middleware:19 请求路径/dict/types/2/ 耗时 0.03429436683654785秒
+INFO 2026-06-09 10:50:02,067 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 289
+WARNING 2026-06-09 10:50:02,101 middleware:19 请求路径/dict/types/ 耗时 0.023287296295166016秒
+INFO 2026-06-09 10:50:02,101 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1393
+WARNING 2026-06-09 10:50:02,665 middleware:19 请求路径/dict/types/2/ 耗时 0.027992725372314453秒
+INFO 2026-06-09 10:50:02,666 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 288
+INFO 2026-06-09 10:50:02,684 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:03,412 middleware:19 请求路径/dict/types/1/ 耗时 0.013254880905151367秒
+INFO 2026-06-09 10:50:03,412 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+WARNING 2026-06-09 10:50:03,447 middleware:19 请求路径/dict/types/ 耗时 0.027431964874267578秒
+INFO 2026-06-09 10:50:03,448 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1391
+WARNING 2026-06-09 10:50:03,984 middleware:19 请求路径/dict/types/2/ 耗时 0.034499168395996094秒
+INFO 2026-06-09 10:50:03,984 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 289
+WARNING 2026-06-09 10:50:04,012 middleware:19 请求路径/dict/types/ 耗时 0.016756534576416016秒
+INFO 2026-06-09 10:50:04,012 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:04,515 middleware:19 请求路径/dict/types/1/ 耗时 0.02375483512878418秒
+INFO 2026-06-09 10:50:04,515 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+INFO 2026-06-09 10:50:04,533 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1393
+WARNING 2026-06-09 10:50:05,612 middleware:19 请求路径/dict/types/2/ 耗时 0.018306493759155273秒
+INFO 2026-06-09 10:50:05,613 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 288
+INFO 2026-06-09 10:50:05,632 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:49,183 middleware:19 请求路径/dict/types/ 耗时 0.010324478149414062秒
+INFO 2026-06-09 10:50:49,183 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:51,129 middleware:19 请求路径/dict/types/1/ 耗时 0.03329944610595703秒
+INFO 2026-06-09 10:50:51,130 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+WARNING 2026-06-09 10:50:51,149 middleware:19 请求路径/dict/types/ 耗时 0.011335372924804688秒
+INFO 2026-06-09 10:50:51,150 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1391
+WARNING 2026-06-09 10:50:51,835 middleware:19 请求路径/dict/types/1/ 耗时 0.02344059944152832秒
+INFO 2026-06-09 10:50:51,836 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+WARNING 2026-06-09 10:50:51,867 middleware:19 请求路径/dict/types/ 耗时 0.02289605140686035秒
+INFO 2026-06-09 10:50:51,868 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:50:55,110 middleware:19 请求路径/dict/types/1/ 耗时 0.03281831741333008秒
+INFO 2026-06-09 10:50:55,110 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+WARNING 2026-06-09 10:50:55,130 middleware:19 请求路径/dict/types/ 耗时 0.01127004623413086秒
+INFO 2026-06-09 10:50:55,130 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1391
+WARNING 2026-06-09 10:50:56,023 middleware:19 请求路径/dict/types/1/ 耗时 0.03508257865905762秒
+INFO 2026-06-09 10:50:56,024 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1101
+WARNING 2026-06-09 10:50:56,045 middleware:19 请求路径/dict/types/ 耗时 0.013562202453613281秒
+INFO 2026-06-09 10:50:56,046 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:51:05,831 middleware:19 请求路径/dict/types/ 耗时 0.01604294776916504秒
+INFO 2026-06-09 10:51:05,831 basehttp:213 "GET /dict/types/?id=1 HTTP/1.1" 200 1103
+WARNING 2026-06-09 10:57:21,567 middleware:19 请求路径/dict/types/ 耗时 0.013768911361694336秒
+INFO 2026-06-09 10:57:21,567 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:57:55,101 middleware:19 请求路径/dict/types/ 耗时 0.014241933822631836秒
+INFO 2026-06-09 10:57:55,102 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:57:55,567 middleware:19 请求路径/dict/types/ 耗时 0.03251481056213379秒
+INFO 2026-06-09 10:57:55,568 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:57:56,152 middleware:19 请求路径/dict/types/ 耗时 0.023446083068847656秒
+INFO 2026-06-09 10:57:56,152 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+WARNING 2026-06-09 10:57:56,566 middleware:19 请求路径/dict/types/ 耗时 0.025136232376098633秒
+INFO 2026-06-09 10:57:56,566 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1392
+INFO 2026-06-09 10:58:31,357 basehttp:213 "OPTIONS /dict/types/ HTTP/1.1" 200 0
+WARNING 2026-06-09 10:58:31,393 middleware:19 请求路径/dict/types/ 耗时 0.03406190872192383秒
+INFO 2026-06-09 10:58:31,394 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 291
+WARNING 2026-06-09 10:58:31,424 middleware:19 请求路径/dict/types/ 耗时 0.013050079345703125秒
+INFO 2026-06-09 10:58:31,425 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1684
+WARNING 2026-06-09 10:59:12,475 middleware:19 请求路径/dict/types/ 耗时 0.02086353302001953秒
+INFO 2026-06-09 10:59:12,476 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1684
+WARNING 2026-06-09 10:59:14,635 middleware:19 请求路径/dict/items/ 耗时 0.017885446548461914秒
+INFO 2026-06-09 10:59:14,635 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=3 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:59:16,080 middleware:19 请求路径/dict/types/ 耗时 0.013401508331298828秒
+INFO 2026-06-09 10:59:16,081 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1684
+WARNING 2026-06-09 10:59:17,032 middleware:19 请求路径/dict/items/ 耗时 0.029473543167114258秒
+INFO 2026-06-09 10:59:17,033 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=2 HTTP/1.1" 200 2
+WARNING 2026-06-09 10:59:17,969 middleware:19 请求路径/dict/types/ 耗时 0.01539158821105957秒
+INFO 2026-06-09 10:59:17,970 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1684
+WARNING 2026-06-09 10:59:21,286 middleware:19 请求路径/dict/types/1/ 耗时 0.0354917049407959秒
+INFO 2026-06-09 10:59:21,287 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1100
+WARNING 2026-06-09 10:59:21,309 middleware:19 请求路径/dict/types/ 耗时 0.010926008224487305秒
+INFO 2026-06-09 10:59:21,309 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1683
+WARNING 2026-06-09 10:59:30,342 middleware:19 请求路径/dict/items/ 耗时 0.019192934036254883秒
+INFO 2026-06-09 10:59:30,342 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=3 HTTP/1.1" 200 2
+INFO 2026-06-10 11:45:28,445 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-10 13:48:51,747 middleware:19 请求路径/dict/types/ 耗时 0.05933380126953125秒
+INFO 2026-06-10 13:48:51,748 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1683
+WARNING 2026-06-10 13:57:17,837 middleware:19 请求路径/dict/items/ 耗时 0.011243581771850586秒
+INFO 2026-06-10 13:57:17,837 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-10 13:57:41,956 basehttp:213 "OPTIONS /dict/items/ HTTP/1.1" 200 0
+WARNING 2026-06-10 13:57:41,967 log:253 Bad Request: /dict/items/
+WARNING 2026-06-10 13:57:41,968 basehttp:213 "POST /dict/items/ HTTP/1.1" 400 75
+WARNING 2026-06-10 13:57:43,604 log:253 Bad Request: /dict/items/
+WARNING 2026-06-10 13:57:43,605 basehttp:213 "POST /dict/items/ HTTP/1.1" 400 75
+WARNING 2026-06-10 13:58:23,436 middleware:19 请求路径/dict/types/ 耗时 0.03286385536193848秒
+INFO 2026-06-10 13:58:23,437 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1683
+WARNING 2026-06-10 13:58:24,872 middleware:19 请求路径/dict/items/ 耗时 0.024441957473754883秒
+INFO 2026-06-10 13:58:24,873 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=2 HTTP/1.1" 200 2
+WARNING 2026-06-10 13:58:26,352 middleware:19 请求路径/dict/types/ 耗时 0.011563539505004883秒
+INFO 2026-06-10 13:58:26,353 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1683
+WARNING 2026-06-10 13:58:28,205 middleware:19 请求路径/dict/items/ 耗时 0.023882150650024414秒
+INFO 2026-06-10 13:58:28,206 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=3 HTTP/1.1" 200 2
+WARNING 2026-06-10 13:58:29,481 middleware:19 请求路径/dict/types/ 耗时 0.030205249786376953秒
+INFO 2026-06-10 13:58:29,482 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1683
+INFO 2026-06-10 14:04:32,345 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+WARNING 2026-06-10 14:04:49,837 log:253 Bad Request: /dict/items/
+WARNING 2026-06-10 14:04:49,837 basehttp:213 "POST /dict/items/ HTTP/1.1" 400 75
+INFO 2026-06-10 14:06:04,762 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+INFO 2026-06-10 14:06:31,429 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 815
+WARNING 2026-06-10 14:06:37,117 middleware:19 请求路径/dict/items/ 耗时 0.012334585189819336秒
+WARNING 2026-06-10 14:06:37,118 log:253 Bad Request: /dict/items/
+WARNING 2026-06-10 14:06:37,118 basehttp:213 "POST /dict/items/ HTTP/1.1" 400 75
+WARNING 2026-06-10 14:06:39,705 middleware:19 请求路径/dict/items/ 耗时 0.021959781646728516秒
+WARNING 2026-06-10 14:06:39,705 log:253 Bad Request: /dict/items/
+WARNING 2026-06-10 14:06:39,706 basehttp:213 "POST /dict/items/ HTTP/1.1" 400 75
+WARNING 2026-06-10 14:07:17,327 middleware:19 请求路径/dict/items/ 耗时 0.04752659797668457秒
+INFO 2026-06-10 14:07:17,327 basehttp:213 "POST /dict/items/ HTTP/1.1" 201 271
+WARNING 2026-06-10 14:07:17,387 middleware:19 请求路径/dict/items/ 耗时 0.028501510620117188秒
+INFO 2026-06-10 14:07:17,388 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1087
+WARNING 2026-06-10 14:07:23,759 middleware:19 请求路径/dict/types/ 耗时 0.027141571044921875秒
+INFO 2026-06-10 14:07:23,760 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1955
+INFO 2026-06-10 14:13:15,812 basehttp:213 "OPTIONS /dict/types/2/ HTTP/1.1" 200 0
+WARNING 2026-06-10 14:13:15,830 middleware:19 请求路径/dict/types/2/ 耗时 0.016756057739257812秒
+INFO 2026-06-10 14:13:15,831 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 289
+WARNING 2026-06-10 14:13:15,868 middleware:19 请求路径/dict/types/ 耗时 0.02751445770263672秒
+INFO 2026-06-10 14:13:15,868 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1956
+WARNING 2026-06-10 14:13:16,731 middleware:19 请求路径/dict/types/2/ 耗时 0.02089095115661621秒
+INFO 2026-06-10 14:13:16,731 basehttp:213 "PUT /dict/types/2/ HTTP/1.1" 201 288
+WARNING 2026-06-10 14:13:16,766 middleware:19 请求路径/dict/types/ 耗时 0.02507162094116211秒
+INFO 2026-06-10 14:13:16,767 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1955
+INFO 2026-06-10 14:13:17,487 basehttp:213 "OPTIONS /dict/types/1/ HTTP/1.1" 200 0
+WARNING 2026-06-10 14:13:17,517 middleware:19 请求路径/dict/types/1/ 耗时 0.027367591857910156秒
+INFO 2026-06-10 14:13:17,518 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1373
+WARNING 2026-06-10 14:13:17,550 middleware:19 请求路径/dict/types/ 耗时 0.021701335906982422秒
+INFO 2026-06-10 14:13:17,550 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1956
+WARNING 2026-06-10 14:13:17,994 middleware:19 请求路径/dict/types/1/ 耗时 0.026915311813354492秒
+INFO 2026-06-10 14:13:17,994 basehttp:213 "PUT /dict/types/1/ HTTP/1.1" 201 1372
+WARNING 2026-06-10 14:13:18,016 middleware:19 请求路径/dict/types/ 耗时 0.012530803680419922秒
+INFO 2026-06-10 14:13:18,016 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1955
+WARNING 2026-06-10 14:13:18,993 middleware:19 请求路径/dict/items/ 耗时 0.031612396240234375秒
+INFO 2026-06-10 14:13:18,994 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1087
+INFO 2026-06-10 14:13:20,290 basehttp:213 "OPTIONS /dict/items/[object%20Object]/ HTTP/1.1" 200 0
+WARNING 2026-06-10 14:13:20,324 middleware:19 请求路径/dict/items/[object Object]/ 耗时 0.03233504295349121秒
+WARNING 2026-06-10 14:13:20,324 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:13:20,325 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:13:21,476 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:13:21,476 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:13:22,512 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:13:22,513 basehttp:213 "PUT /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:13:23,843 middleware:19 请求路径/dict/types/ 耗时 0.02594304084777832秒
+INFO 2026-06-10 14:13:23,843 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1955
+WARNING 2026-06-10 14:13:35,848 middleware:19 请求路径/dict/items/ 耗时 0.019177675247192383秒
+INFO 2026-06-10 14:13:35,849 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1087
+INFO 2026-06-10 14:13:59,721 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\models.py changed, reloading.
+INFO 2026-06-10 14:14:00,818 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-10 14:14:39,678 middleware:19 请求路径/dict/items/ 耗时 0.0189666748046875秒
+INFO 2026-06-10 14:14:39,679 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1031
+WARNING 2026-06-10 14:14:42,701 middleware:19 请求路径/dict/types/ 耗时 0.014524221420288086秒
+INFO 2026-06-10 14:14:42,701 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+INFO 2026-06-10 14:14:44,312 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=3 HTTP/1.1" 200 2
+WARNING 2026-06-10 14:14:47,943 middleware:19 请求路径/dict/types/ 耗时 0.013794660568237305秒
+INFO 2026-06-10 14:14:47,943 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-10 14:14:49,004 middleware:19 请求路径/dict/items/ 耗时 0.03227400779724121秒
+INFO 2026-06-10 14:14:49,005 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1031
+WARNING 2026-06-10 14:15:03,091 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:15:03,091 basehttp:213 "GET /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:15:04,287 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:15:04,288 basehttp:213 "GET /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:15:04,506 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:15:04,507 basehttp:213 "GET /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:15:04,713 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:15:04,713 basehttp:213 "GET /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:15:04,949 log:253 Not Found: /dict/items/[object Object]/
+WARNING 2026-06-10 14:15:04,950 basehttp:213 "GET /dict/items/[object%20Object]/ HTTP/1.1" 404 4080
+WARNING 2026-06-10 14:15:07,639 middleware:19 请求路径/dict/types/ 耗时 0.03082108497619629秒
+INFO 2026-06-10 14:15:07,640 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-10 14:19:30,141 middleware:19 请求路径/dict/types/ 耗时 0.015827178955078125秒
+INFO 2026-06-10 14:19:30,142 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:30,282 middleware:19 请求路径/dict/types/ 耗时 0.031094789505004883秒
+INFO 2026-06-10 15:46:30,284 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:31,639 middleware:19 请求路径/dict/types/ 耗时 0.010163545608520508秒
+INFO 2026-06-10 15:46:31,639 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:32,220 middleware:19 请求路径/dict/types/ 耗时 0.033922433853149414秒
+INFO 2026-06-10 15:46:32,221 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:32,437 middleware:19 请求路径/dict/types/ 耗时 0.02968454360961914秒
+INFO 2026-06-10 15:46:32,438 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:32,640 middleware:19 请求路径/dict/types/ 耗时 0.016150712966918945秒
+INFO 2026-06-10 15:46:32,641 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:32,856 middleware:19 请求路径/dict/types/ 耗时 0.019248485565185547秒
+INFO 2026-06-10 15:46:32,857 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:33,073 middleware:19 请求路径/dict/types/ 耗时 0.02614879608154297秒
+INFO 2026-06-10 15:46:33,074 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:33,274 middleware:19 请求路径/dict/types/ 耗时 0.03694939613342285秒
+INFO 2026-06-10 15:46:33,274 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:33,454 middleware:19 请求路径/dict/types/ 耗时 0.021439313888549805秒
+INFO 2026-06-10 15:46:33,454 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:34,031 middleware:19 请求路径/dict/types/ 耗时 0.013962984085083008秒
+INFO 2026-06-10 15:46:34,032 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:34,301 middleware:19 请求路径/dict/types/ 耗时 0.03218579292297363秒
+INFO 2026-06-10 15:46:34,302 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+WARNING 2026-06-10 15:46:34,488 middleware:19 请求路径/dict/types/ 耗时 0.018252849578857422秒
+INFO 2026-06-10 15:46:34,489 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85%E5%AD%98 HTTP/1.1" 200 1899
+INFO 2026-06-11 15:27:36,216 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-11 16:08:23,907 middleware:19 请求路径/dict/types/ 耗时 0.07912540435791016秒
+INFO 2026-06-11 16:08:23,908 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-11 16:18:15,988 middleware:19 请求路径/dict/types/ 耗时 0.01615452766418457秒
+INFO 2026-06-11 16:18:15,988 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-11 16:18:21,472 middleware:19 请求路径/dict/items/ 耗时 0.02119898796081543秒
+INFO 2026-06-11 16:18:21,473 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=3 HTTP/1.1" 200 2
+WARNING 2026-06-11 16:18:22,997 middleware:19 请求路径/dict/types/ 耗时 0.03574395179748535秒
+INFO 2026-06-11 16:18:22,997 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+INFO 2026-06-11 16:22:21,353 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:22:22,760 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:22:51,402 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:22:52,400 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:23:03,206 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:23:04,039 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:23:27,179 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:23:28,121 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:23:48,409 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:23:49,757 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:23:51,311 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:23:52,155 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:24:07,984 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:24:08,802 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:24:15,600 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:24:16,531 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:24:27,425 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:24:28,554 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:24:44,630 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:24:45,459 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:25:12,644 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:25:13,426 autoreload:667 Watching for file changes with StatReloader
+INFO 2026-06-11 16:27:28,627 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:27:29,555 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-11 16:27:40,713 middleware:19 请求路径/dict/types/ 耗时 0.024651527404785156秒
+INFO 2026-06-11 16:27:40,714 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=%E5%86%85 HTTP/1.1" 200 293
+WARNING 2026-06-11 16:27:49,339 middleware:19 请求路径/dict/types/ 耗时 0.013179540634155273秒
+INFO 2026-06-11 16:27:49,340 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+WARNING 2026-06-11 16:27:55,568 middleware:19 请求路径/dict/types/ 耗时 0.031586647033691406秒
+INFO 2026-06-11 16:27:55,569 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=dict_s HTTP/1.1" 200 290
+WARNING 2026-06-11 16:28:08,650 middleware:19 请求路径/dict/types/ 耗时 0.03099989891052246秒
+INFO 2026-06-11 16:28:08,651 basehttp:213 "GET /dict/types/?page=1&page_size=10&search=dict_s HTTP/1.1" 200 290
+WARNING 2026-06-11 16:28:09,329 middleware:19 请求路径/dict/types/ 耗时 0.04430699348449707秒
+INFO 2026-06-11 16:28:09,331 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 1899
+INFO 2026-06-11 16:28:56,943 autoreload:265 E:\project\uric\uric_api\uric_api\apps\dict\views.py changed, reloading.
+INFO 2026-06-11 16:28:57,950 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-11 16:29:03,332 middleware:19 请求路径/dict/types/ 耗时 0.15992116928100586秒
+INFO 2026-06-11 16:29:03,332 basehttp:213 "GET /dict/types/?page=1&page_size=20 HTTP/1.1" 200 1899
+WARNING 2026-06-11 16:29:04,814 middleware:19 请求路径/dict/types/ 耗时 0.0238494873046875秒
+INFO 2026-06-11 16:29:04,815 basehttp:213 "GET /dict/types/?page=1&page_size=50 HTTP/1.1" 200 1899
+WARNING 2026-06-11 16:29:06,128 middleware:19 请求路径/dict/types/ 耗时 0.030670642852783203秒
+INFO 2026-06-11 16:29:06,128 basehttp:213 "GET /dict/types/?page=1&page_size=100 HTTP/1.1" 200 1899
+INFO 2026-06-11 16:29:19,822 basehttp:213 "OPTIONS /dict/types/ HTTP/1.1" 200 0
+WARNING 2026-06-11 16:29:19,858 middleware:19 请求路径/dict/types/ 耗时 0.03484797477722168秒
+INFO 2026-06-11 16:29:19,858 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 292
+WARNING 2026-06-11 16:29:19,917 middleware:19 请求路径/dict/types/ 耗时 0.029478073120117188秒
+INFO 2026-06-11 16:29:19,918 basehttp:213 "GET /dict/types/?page=1&page_size=100 HTTP/1.1" 200 2192
+WARNING 2026-06-11 16:29:27,664 middleware:19 请求路径/dict/types/ 耗时 0.03245401382446289秒
+INFO 2026-06-11 16:29:27,665 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 289
+WARNING 2026-06-11 16:29:27,699 middleware:19 请求路径/dict/types/ 耗时 0.01572704315185547秒
+INFO 2026-06-11 16:29:27,700 basehttp:213 "GET /dict/types/?page=1&page_size=100 HTTP/1.1" 200 2482
+WARNING 2026-06-11 16:29:39,931 log:253 Bad Request: /dict/types/
+WARNING 2026-06-11 16:29:39,932 basehttp:213 "POST /dict/types/ HTTP/1.1" 400 67
+WARNING 2026-06-11 16:29:43,558 middleware:19 请求路径/dict/types/ 耗时 0.033554792404174805秒
+INFO 2026-06-11 16:29:43,558 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 288
+WARNING 2026-06-11 16:29:43,631 middleware:19 请求路径/dict/types/ 耗时 0.04473090171813965秒
+INFO 2026-06-11 16:29:43,632 basehttp:213 "GET /dict/types/?page=1&page_size=100 HTTP/1.1" 200 2771
+WARNING 2026-06-11 16:30:10,575 middleware:19 请求路径/dict/types/ 耗时 0.022789955139160156秒
+INFO 2026-06-11 16:30:10,576 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 2771
+WARNING 2026-06-11 16:30:19,580 middleware:19 请求路径/dict/types/ 耗时 0.031036376953125秒
+INFO 2026-06-11 16:30:19,581 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 288
+WARNING 2026-06-11 16:30:19,680 middleware:19 请求路径/dict/types/ 耗时 0.07029891014099121秒
+INFO 2026-06-11 16:30:19,681 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 3060
+WARNING 2026-06-11 16:30:29,067 middleware:19 请求路径/dict/types/ 耗时 0.035284996032714844秒
+INFO 2026-06-11 16:30:29,068 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 295
+WARNING 2026-06-11 16:30:29,147 middleware:19 请求路径/dict/types/ 耗时 0.04340314865112305秒
+INFO 2026-06-11 16:30:29,149 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 3356
+WARNING 2026-06-11 16:30:36,231 middleware:19 请求路径/dict/types/ 耗时 0.014861106872558594秒
+INFO 2026-06-11 16:30:36,232 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 289
+WARNING 2026-06-11 16:30:36,298 middleware:19 请求路径/dict/types/ 耗时 0.041617393493652344秒
+INFO 2026-06-11 16:30:36,299 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 3646
+WARNING 2026-06-11 16:30:41,946 middleware:19 请求路径/dict/types/ 耗时 0.03524899482727051秒
+INFO 2026-06-11 16:30:41,948 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 291
+WARNING 2026-06-11 16:30:42,024 middleware:19 请求路径/dict/types/ 耗时 0.04949831962585449秒
+INFO 2026-06-11 16:30:42,024 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 3938
+WARNING 2026-06-11 16:30:57,123 middleware:19 请求路径/dict/types/ 耗时 0.018715858459472656秒
+INFO 2026-06-11 16:30:57,123 basehttp:213 "POST /dict/types/ HTTP/1.1" 201 291
+WARNING 2026-06-11 16:30:57,174 middleware:19 请求路径/dict/types/ 耗时 0.027291297912597656秒
+INFO 2026-06-11 16:30:57,175 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:31:00,218 middleware:19 请求路径/dict/types/ 耗时 0.03441166877746582秒
+INFO 2026-06-11 16:31:00,219 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:31:02,158 middleware:19 请求路径/dict/types/ 耗时 0.023674964904785156秒
+INFO 2026-06-11 16:31:02,159 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:31:05,045 middleware:19 请求路径/dict/types/ 耗时 0.03190350532531738秒
+INFO 2026-06-11 16:31:05,046 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:31:07,426 middleware:19 请求路径/dict/types/ 耗时 0.04869675636291504秒
+INFO 2026-06-11 16:31:07,427 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:32:49,264 middleware:19 请求路径/dict/types/ 耗时 0.03528928756713867秒
+INFO 2026-06-11 16:32:49,265 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:32:50,778 middleware:19 请求路径/dict/types/ 耗时 0.04079699516296387秒
+INFO 2026-06-11 16:32:50,779 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:33:01,851 middleware:19 请求路径/dict/types/ 耗时 0.10071682929992676秒
+INFO 2026-06-11 16:33:01,853 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:33:43,051 middleware:19 请求路径/dict/types/ 耗时 0.03728508949279785秒
+INFO 2026-06-11 16:33:43,052 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
+INFO 2026-06-11 16:33:49,423 basehttp:213 "GET /dict/items/?page=1&page_size=10&type_id=1 HTTP/1.1" 200 1031
+WARNING 2026-06-11 16:33:51,528 middleware:19 请求路径/dict/types/ 耗时 0.08173537254333496秒
+INFO 2026-06-11 16:33:51,529 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:33:56,933 middleware:19 请求路径/dict/types/ 耗时 0.05485677719116211秒
+INFO 2026-06-11 16:33:56,934 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
+INFO 2026-06-11 16:35:23,638 autoreload:667 Watching for file changes with StatReloader
+WARNING 2026-06-11 16:35:30,893 middleware:19 请求路径/dict/types/ 耗时 0.06053018569946289秒
+INFO 2026-06-11 16:35:30,894 basehttp:213 "GET /dict/types/?page=1&page_size=10 HTTP/1.1" 200 4230
+WARNING 2026-06-11 16:35:54,617 middleware:19 请求路径/dict/types/ 耗时 0.046471595764160156秒
+INFO 2026-06-11 16:35:54,618 basehttp:213 "GET /dict/types/?page=2&page_size=10 HTTP/1.1" 200 4230
